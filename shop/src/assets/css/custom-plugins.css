@@ -1,0 +1,371 @@
+/* RC Table */
+.rc-table {
+  @apply border-separate shadow-sm;
+  border-spacing: 0;
+}
+
+.rc-table .rc-table-content,
+.rc-table .rc-table-body,
+.rc-table .rc-table-header {
+  @apply border-0;
+}
+
+.rc-table tr th {
+  @apply border-0 border-b border-border-200;
+}
+
+.rc-table tr td {
+  @apply border-0;
+}
+
+.rc-table thead.rc-table-thead th {
+  @apply bg-gray-100 py-3 px-4 font-body font-bold text-sm text-heading border-border-200;
+}
+
+.rc-table tr.rc-table-row:hover {
+  background-color: inherit;
+}
+
+.rc-table tr.rc-table-row td {
+  @apply py-3 px-4 font-body text-base font-normal text-heading;
+}
+
+.rc-table tr.rc-table-row:not(.rc-table-expanded-row) {
+  cursor: pointer;
+}
+
+.rc-table tr.rc-table-expanded-row > td {
+  @apply p-0 whitespace-normal border border-gray-50;
+}
+
+.rc-table tr.rc-table-expanded-row tr.rc-table-row {
+  cursor: default;
+}
+
+.rc-table .rc-table-expanded-row-fixed::after {
+  border-width: 0;
+}
+
+/* Product Single Page thumb slider style */
+.product-gallery .swiper-container-thumbs .swiper-slide-thumb-active {
+  @apply border-2 border-accent;
+}
+.product-gallery .swiper-button-disabled {
+  @apply opacity-0 transition-opacity duration-200;
+}
+
+/* some utilities that are not been supported yet in Tailwind v2 */
+.use-blur-backdrop {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+/* RC Collapse */
+.rc-collapse {
+  background-color: #ffffff !important;
+  border-radius: 0 !important;
+  border: 0px solid #d9d9d9 !important;
+}
+
+.rc-collapse:focus {
+  outline: none !important;
+}
+
+.rc-collapse > .rc-collapse-item {
+  border: 0px solid #d9d9d9 !important;
+}
+
+.rc-collapse > .rc-collapse-item > .rc-collapse-header {
+  padding: 0 !important;
+}
+
+.rc-collapse > .rc-collapse-item > .rc-collapse-header:focus {
+  outline: none !important;
+}
+
+.rc-collapse-content {
+  padding: 0 !important;
+}
+
+/* Swiper hide Disabled button */
+.swiper-button-disabled {
+  display: none !important;
+}
+
+/*
+Overlay Scrollbar - os-theme-thin-dark
+*/
+.os-theme-thin-dark > .os-scrollbar-horizontal {
+  right: 14px;
+  height: 14px;
+  padding: 0px 6px;
+}
+.os-theme-thin-dark > .os-scrollbar-vertical {
+  bottom: 14px;
+  width: 14px;
+  padding: 6px 0px;
+}
+.os-theme-thin-dark.os-host-rtl > .os-scrollbar-horizontal {
+  left: 14px;
+  right: 0;
+}
+.os-theme-thin-dark > .os-scrollbar-corner {
+  height: 14px;
+  width: 14px;
+  background-color: transparent;
+}
+.os-theme-thin-dark > .os-scrollbar > .os-scrollbar-track {
+  background: transparent;
+}
+.os-theme-thin-dark > .os-scrollbar-horizontal > .os-scrollbar-track:before,
+.os-theme-thin-dark > .os-scrollbar-vertical > .os-scrollbar-track:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.15);
+}
+.os-theme-thin-dark > .os-scrollbar-horizontal > .os-scrollbar-track:before,
+.os-theme-thin-dark
+  > .os-scrollbar-horizontal
+  > .os-scrollbar-track
+  > .os-scrollbar-handle:before {
+  left: 0;
+  right: 0;
+  height: 2px;
+  top: 50%;
+  margin-top: -1px;
+}
+.os-theme-thin-dark > .os-scrollbar-vertical > .os-scrollbar-track:before,
+.os-theme-thin-dark
+  > .os-scrollbar-vertical
+  > .os-scrollbar-track
+  > .os-scrollbar-handle:before {
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  left: 50%;
+  margin-left: -1px;
+}
+.os-theme-thin-dark
+  > .os-scrollbar
+  > .os-scrollbar-track
+  > .os-scrollbar-handle:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.os-theme-thin-dark
+  > .os-scrollbar-horizontal
+  > .os-scrollbar-track
+  > .os-scrollbar-handle:hover:before,
+.os-theme-thin-dark
+  > .os-scrollbar-horizontal
+  > .os-scrollbar-track
+  > .os-scrollbar-handle.active:before {
+  height: 4px;
+  margin-top: -2px;
+}
+.os-theme-thin-dark
+  > .os-scrollbar-vertical
+  > .os-scrollbar-track
+  > .os-scrollbar-handle:hover:before,
+.os-theme-thin-dark
+  > .os-scrollbar-vertical
+  > .os-scrollbar-track
+  > .os-scrollbar-handle.active:before {
+  width: 4px;
+  margin-left: -2px;
+}
+.os-theme-thin-dark
+  > .os-scrollbar-horizontal
+  > .os-scrollbar-track
+  > .os-scrollbar-handle:hover:before,
+.os-theme-thin-dark
+  > .os-scrollbar-vertical
+  > .os-scrollbar-track
+  > .os-scrollbar-handle:hover:before {
+  background: rgba(0, 0, 0, 0.7);
+}
+.os-theme-thin-dark
+  > .os-scrollbar-horizontal
+  > .os-scrollbar-track
+  > .os-scrollbar-handle.active:before,
+.os-theme-thin-dark
+  > .os-scrollbar-vertical
+  > .os-scrollbar-track
+  > .os-scrollbar-handle.active:before {
+  background: #000;
+}
+.os-theme-thin-dark
+  > .os-scrollbar-horizontal
+  > .os-scrollbar-track
+  > .os-scrollbar-handle {
+  height: 100%;
+  min-width: 30px;
+}
+.os-theme-thin-dark
+  > .os-scrollbar-vertical
+  > .os-scrollbar-track
+  > .os-scrollbar-handle {
+  width: 100%;
+  min-height: 30px;
+}
+.os-theme-thin-dark.os-host-transition
+  > .os-scrollbar-horizontal
+  > .os-scrollbar-track
+  > .os-scrollbar-handle:before {
+  transition: height 0.3s, margin-top 0.3s, background 0.2s;
+}
+.os-theme-thin-dark.os-host-transition
+  > .os-scrollbar-vertical
+  > .os-scrollbar-track
+  > .os-scrollbar-handle:before {
+  transition: width 0.3s, margin-left 0.3s, background 0.2s;
+}
+
+.scrollbar_height {
+  height: 100vh;
+}
+
+@screen lg {
+  .scrollbar_height {
+    height: calc(100vh - 7.25rem);
+  }
+}
+
+/* react-phone-input-2 */
+.react-tel-input .selected-flag:focus:before,
+.react-tel-input .selected-flag.open:before {
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+body[dir='rtl'] .react-tel-input .selected-flag {
+  padding-right: 11px !important;
+}
+
+body[dir='rtl'] .react-tel-input .selected-flag .arrow {
+  right: 29px;
+}
+
+body[dir='rtl'] .react-tel-input .country-list .country {
+  display: flex;
+  padding: 12px 46px 13px 9px;
+}
+
+body[dir='rtl'] .react-tel-input .country-list .country-name {
+  margin-right: 0px;
+  margin-left: 6px;
+}
+
+body[dir='rtl'] .react-tel-input .country-list .flag {
+  margin-left: 7px;
+  margin-right: 0;
+  right: 13px;
+}
+
+/* Stripe Form */
+.StripeElement {
+  box-sizing: border-box;
+  height: 40px;
+  padding: 10px 12px;
+  padding-left: 0;
+  border-bottom: 1px solid rgb(var(--color-gray-200));
+  background-color: white;
+
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+.StripeElement--focus {
+}
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+.StripePay {
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+  background: #32325d;
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  text-decoration: none;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  cursor: pointer;
+}
+.StripePay:hover {
+  background-color: #43458b;
+}
+
+/* React toastify */
+.Toastify__toast-theme--colored.Toastify__toast--success {
+  @apply !bg-accent;
+}
+
+.Toastify__toast-theme--colored..Toastify__toast--error {
+  @apply !bg-red-500;
+}
+
+.Toastify__toast-theme--colored.Toastify__toast--info {
+  @apply !bg-blue-500;
+}
+
+.Toastify__toast-theme--colored.Toastify__toast--warning {
+  @apply !bg-yellow-500;
+}
+
+/* Page loader */
+.page_loader {
+  margin: 100px auto;
+  width: 120px;
+  height: 120px;
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #00d2a8;
+  border-radius: 50%;
+  animation: spin 2s linear infinite, heart-beat 2s linear infinite;
+  background-color: #fff;
+  text-align: center;
+  line-height: 120px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes heart-beat {
+  55% {
+    background-color: #fff;
+  }
+  60% {
+    background-color: #00d2a8;
+  }
+  65% {
+    background-color: #fff;
+  }
+  70% {
+    background-color: #00d2a8;
+  }
+  100% {
+    background-color: #fff;
+  }
+}

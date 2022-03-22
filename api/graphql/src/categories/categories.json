@@ -1,0 +1,2051 @@
+[
+  {
+    "id": 1,
+    "name": "Fruits & Vegetables",
+    "slug": "fruits-vegetables",
+    "icon": "FruitsVegetable",
+
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T07:21:31.000000Z",
+    "updated_at": "2021-03-08T07:21:31.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "image": null,
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-03-08T07:18:25.000000Z"
+    },
+    "children": [
+      {
+        "id": 2,
+        "name": "Fruits",
+        "slug": "fruits",
+        "icon": null,
+
+        "details": null,
+        "parent": 1,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:22:04.000000Z",
+        "updated_at": "2021-03-08T07:22:04.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 3,
+        "name": "Vegetables",
+        "slug": "vegetables",
+        "icon": null,
+
+        "details": null,
+        "parent": 1,
+        "type_id": 1,
+        "created_at": "2021-03-08T07:57:48.000000Z",
+        "updated_at": "2021-03-09T11:51:24.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Meat & Fish",
+    "slug": "meat-fish",
+    "icon": "MeatFish",
+
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T08:54:16.000000Z",
+    "updated_at": "2021-03-08T08:54:16.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "image": null,
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-03-08T07:18:25.000000Z"
+    },
+    "children": [
+      {
+        "id": 5,
+        "name": "Fresh Fish",
+        "slug": "fresh-fish",
+        "icon": null,
+
+        "details": null,
+        "parent": 4,
+        "type_id": 1,
+        "created_at": "2021-03-08T08:54:47.000000Z",
+        "updated_at": "2021-03-08T08:54:47.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 6,
+        "name": "Meat",
+        "slug": "meat",
+        "icon": null,
+
+        "details": null,
+        "parent": 4,
+        "type_id": 1,
+        "created_at": "2021-03-08T08:55:14.000000Z",
+        "updated_at": "2021-03-08T08:55:14.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Snacks",
+    "slug": "snacks",
+    "icon": "Snacks",
+
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T08:55:56.000000Z",
+    "updated_at": "2021-03-08T08:55:56.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "image": null,
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-03-08T07:18:25.000000Z"
+    },
+    "children": [
+      {
+        "id": 8,
+        "name": "Nuts & Biscuits",
+        "slug": "nuts-biscuits",
+        "icon": null,
+
+        "details": null,
+        "parent": 7,
+        "type_id": 1,
+        "created_at": "2021-03-08T08:57:28.000000Z",
+        "updated_at": "2021-03-08T08:57:28.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 9,
+        "name": "Chocolates",
+        "slug": "chocolates",
+        "icon": null,
+
+        "details": null,
+        "parent": 7,
+        "type_id": 1,
+        "created_at": "2021-03-08T08:58:44.000000Z",
+        "updated_at": "2021-03-08T08:58:44.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 10,
+        "name": "Crisps",
+        "slug": "crisps",
+        "icon": null,
+
+        "details": null,
+        "parent": 7,
+        "type_id": 1,
+        "created_at": "2021-03-08T08:59:05.000000Z",
+        "updated_at": "2021-03-08T08:59:05.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 11,
+        "name": "Noodles & Pasta",
+        "slug": "noodles-pasta",
+        "icon": null,
+
+        "details": null,
+        "parent": 7,
+        "type_id": 1,
+        "created_at": "2021-03-08T08:59:23.000000Z",
+        "updated_at": "2021-03-08T08:59:23.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 12,
+        "name": "Sauce",
+        "slug": "sauce",
+        "icon": null,
+
+        "details": null,
+        "parent": 7,
+        "type_id": 1,
+        "created_at": "2021-03-08T09:00:00.000000Z",
+        "updated_at": "2021-03-08T09:00:00.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 14,
+        "name": "Soup",
+        "slug": "soup",
+        "icon": null,
+
+        "details": null,
+        "parent": 7,
+        "type_id": 1,
+        "created_at": "2021-03-08T09:48:49.000000Z",
+        "updated_at": "2021-03-08T09:48:49.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+
+  {
+    "id": 13,
+    "name": "Pet Care",
+    "slug": "pet-care",
+    "icon": "PetCare",
+
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T09:47:41.000000Z",
+    "updated_at": "2021-03-08T09:47:41.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "image": null,
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-03-08T07:18:25.000000Z"
+    },
+    "children": [
+      {
+        "id": 15,
+        "name": "Cat Food",
+        "slug": "cat-food",
+        "icon": null,
+
+        "details": null,
+        "parent": 13,
+        "type_id": 1,
+        "created_at": "2021-03-08T09:49:17.000000Z",
+        "updated_at": "2021-03-08T09:49:17.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 16,
+        "name": "Dog Food",
+        "slug": "dog-food",
+        "icon": null,
+
+        "details": null,
+        "parent": 13,
+        "type_id": 1,
+        "created_at": "2021-03-08T09:49:51.000000Z",
+        "updated_at": "2021-03-08T09:49:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 17,
+        "name": "Accessories",
+        "slug": "accessories",
+        "icon": null,
+
+        "details": null,
+        "parent": 13,
+        "type_id": 1,
+        "created_at": "2021-03-08T09:50:51.000000Z",
+        "updated_at": "2021-03-08T09:50:51.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+
+  {
+    "id": 18,
+    "name": "Home & Cleaning",
+    "slug": "home-cleaning",
+    "icon": "HomeCleaning",
+
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T09:51:38.000000Z",
+    "updated_at": "2021-03-08T09:52:52.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "image": null,
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-03-08T07:18:25.000000Z"
+    },
+    "children": [
+      {
+        "id": 19,
+        "name": "Air Freshner",
+        "slug": "air-freshner",
+        "icon": null,
+
+        "details": null,
+        "parent": 18,
+        "type_id": 1,
+        "created_at": "2021-03-08T09:52:00.000000Z",
+        "updated_at": "2021-03-08T09:52:00.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 20,
+        "name": "Cleaning Products",
+        "slug": "cleaning-products",
+        "icon": null,
+
+        "details": null,
+        "parent": 18,
+        "type_id": 1,
+        "created_at": "2021-03-08T09:52:27.000000Z",
+        "updated_at": "2021-03-08T09:52:27.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 21,
+        "name": "Kitchen Accessories",
+        "slug": "kitchen-accessories",
+        "icon": null,
+
+        "details": null,
+        "parent": 18,
+        "type_id": 1,
+        "created_at": "2021-03-08T09:53:56.000000Z",
+        "updated_at": "2021-03-08T09:53:56.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 22,
+        "name": "Laundry",
+        "slug": "laundry",
+        "icon": null,
+
+        "details": null,
+        "parent": 18,
+        "type_id": 1,
+        "created_at": "2021-03-08T09:55:12.000000Z",
+        "updated_at": "2021-03-08T09:55:12.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Dairy",
+    "slug": "dairy",
+    "icon": "Dairy",
+
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T09:55:58.000000Z",
+    "updated_at": "2021-03-08T09:55:58.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "image": null,
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-03-08T07:18:25.000000Z"
+    },
+    "children": [
+      {
+        "id": 24,
+        "name": "Milk",
+        "slug": "milk",
+        "icon": null,
+
+        "details": null,
+        "parent": 23,
+        "type_id": 1,
+        "created_at": "2021-03-08T09:58:35.000000Z",
+        "updated_at": "2021-03-08T09:58:35.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 25,
+        "name": "Butter",
+        "slug": "butter",
+        "icon": null,
+
+        "details": null,
+        "parent": 23,
+        "type_id": 1,
+        "created_at": "2021-03-08T09:58:51.000000Z",
+        "updated_at": "2021-03-08T09:58:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 26,
+        "name": "Egg",
+        "slug": "egg",
+        "icon": null,
+
+        "details": null,
+        "parent": 23,
+        "type_id": 1,
+        "created_at": "2021-03-08T09:59:05.000000Z",
+        "updated_at": "2021-03-08T09:59:05.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 27,
+        "name": "Yogurt",
+        "slug": "yogurt",
+        "icon": null,
+
+        "details": null,
+        "parent": 23,
+        "type_id": 1,
+        "created_at": "2021-03-08T09:59:27.000000Z",
+        "updated_at": "2021-03-08T09:59:27.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Cooking",
+    "slug": "cooking",
+    "icon": "Cooking",
+
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T10:00:05.000000Z",
+    "updated_at": "2021-03-08T10:00:05.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "image": null,
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-03-08T07:18:25.000000Z"
+    },
+    "children": [
+      {
+        "id": 29,
+        "name": "Oil",
+        "slug": "oil",
+        "icon": null,
+
+        "details": null,
+        "parent": 28,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:05:28.000000Z",
+        "updated_at": "2021-03-08T10:05:28.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 30,
+        "name": "Rice",
+        "slug": "rice",
+        "icon": null,
+
+        "details": null,
+        "parent": 28,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:05:47.000000Z",
+        "updated_at": "2021-03-08T10:05:47.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 31,
+        "name": "Salt & Sugar",
+        "slug": "salt-sugar",
+        "icon": null,
+
+        "details": null,
+        "parent": 28,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:06:20.000000Z",
+        "updated_at": "2021-03-08T10:06:20.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 32,
+        "name": "Spices",
+        "slug": "spices",
+        "icon": null,
+
+        "details": null,
+        "parent": 28,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:06:39.000000Z",
+        "updated_at": "2021-03-08T10:06:39.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+
+  {
+    "id": 33,
+    "name": "Breakfast",
+    "slug": "breakfast",
+    "icon": "Breakfast",
+
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T10:07:13.000000Z",
+    "updated_at": "2021-03-08T10:07:13.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "image": null,
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-03-08T07:18:25.000000Z"
+    },
+    "children": [
+      {
+        "id": 34,
+        "name": "Bread",
+        "slug": "bread",
+        "icon": null,
+
+        "details": null,
+        "parent": 33,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:07:35.000000Z",
+        "updated_at": "2021-03-08T10:07:35.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 35,
+        "name": "Cereal",
+        "slug": "cereal",
+        "icon": null,
+
+        "details": null,
+        "parent": 33,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:07:57.000000Z",
+        "updated_at": "2021-03-08T10:07:57.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 36,
+        "name": "Jam",
+        "slug": "jam",
+        "icon": null,
+
+        "details": null,
+        "parent": 33,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:08:19.000000Z",
+        "updated_at": "2021-03-08T10:08:19.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+
+  {
+    "id": 37,
+    "name": "Beverage",
+    "slug": "beverage",
+    "icon": "Beverage",
+
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T10:08:59.000000Z",
+    "updated_at": "2021-03-08T10:08:59.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "image": null,
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-03-08T07:18:25.000000Z"
+    },
+    "children": [
+      {
+        "id": 38,
+        "name": "Coffee",
+        "slug": "coffee",
+        "icon": null,
+
+        "details": null,
+        "parent": 37,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:09:22.000000Z",
+        "updated_at": "2021-03-08T10:09:22.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 39,
+        "name": "Energy Drinks",
+        "slug": "energy-drinks",
+        "icon": null,
+
+        "details": null,
+        "parent": 37,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:09:38.000000Z",
+        "updated_at": "2021-03-08T10:09:38.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 40,
+        "name": "Juice",
+        "slug": "juice",
+        "icon": null,
+
+        "details": null,
+        "parent": 37,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:09:53.000000Z",
+        "updated_at": "2021-03-08T10:09:53.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 41,
+        "name": "Fizzy Drinks",
+        "slug": "fizzy-drinks",
+        "icon": null,
+
+        "details": null,
+        "parent": 37,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:10:10.000000Z",
+        "updated_at": "2021-03-08T10:10:10.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 42,
+        "name": "Tea",
+        "slug": "tea",
+        "icon": null,
+
+        "details": null,
+        "parent": 37,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:10:25.000000Z",
+        "updated_at": "2021-03-08T10:10:25.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+
+  {
+    "id": 43,
+    "name": "Health & Beauty",
+    "slug": "health-beauty",
+    "icon": "BeautyHealth",
+
+    "details": null,
+    "parent": null,
+    "type_id": 1,
+    "created_at": "2021-03-08T10:11:08.000000Z",
+    "updated_at": "2021-03-08T10:11:08.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 1,
+      "name": "Grocery",
+      "slug": "grocery",
+      "icon": "FruitsVegetable",
+      "image": null,
+      "created_at": "2021-03-08T07:18:25.000000Z",
+      "updated_at": "2021-03-08T07:18:25.000000Z"
+    },
+    "children": [
+      {
+        "id": 44,
+        "name": "Bath",
+        "slug": "bath",
+        "icon": null,
+
+        "details": null,
+        "parent": 43,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:11:28.000000Z",
+        "updated_at": "2021-03-08T10:11:28.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 45,
+        "name": "Cream",
+        "slug": "cream",
+        "icon": null,
+
+        "details": null,
+        "parent": 43,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:11:58.000000Z",
+        "updated_at": "2021-03-08T10:11:58.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 46,
+        "name": "Deodorant",
+        "slug": "deodorant",
+        "icon": null,
+
+        "details": null,
+        "parent": 43,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:12:18.000000Z",
+        "updated_at": "2021-03-08T10:12:18.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 47,
+        "name": "Face Care",
+        "slug": "face-care",
+        "icon": null,
+
+        "details": null,
+        "parent": 43,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:12:32.000000Z",
+        "updated_at": "2021-03-08T10:12:32.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 48,
+        "name": "Oral Care",
+        "slug": "oral-care",
+        "icon": null,
+
+        "details": null,
+        "parent": 43,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:12:45.000000Z",
+        "updated_at": "2021-03-08T10:12:45.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 49,
+        "name": "Shaving Needs",
+        "slug": "shaving-needs",
+        "icon": null,
+
+        "details": null,
+        "parent": 43,
+        "type_id": 1,
+        "created_at": "2021-03-08T10:12:59.000000Z",
+        "updated_at": "2021-03-08T10:12:59.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Face",
+    "slug": "face",
+    "icon": "Face",
+
+    "details": null,
+    "parent": null,
+    "type_id": 3,
+    "created_at": "2021-03-09T05:45:12.000000Z",
+    "updated_at": "2021-03-09T05:45:12.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 3,
+      "name": "Makeup",
+      "slug": "makeup",
+      "icon": "FacialCare",
+      "image": null,
+      "created_at": "2021-03-08T07:19:12.000000Z",
+      "updated_at": "2021-03-08T07:19:12.000000Z"
+    },
+    "children": [
+      {
+        "id": 51,
+        "name": "Blusher",
+        "slug": "blusher",
+        "icon": null,
+
+        "details": null,
+        "parent": 50,
+        "type_id": 3,
+        "created_at": "2021-03-09T05:45:43.000000Z",
+        "updated_at": "2021-03-09T05:45:43.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 52,
+        "name": "Foundation",
+        "slug": "foundation",
+        "icon": null,
+
+        "details": null,
+        "parent": 50,
+        "type_id": 3,
+        "created_at": "2021-03-09T05:46:02.000000Z",
+        "updated_at": "2021-03-09T05:46:02.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 53,
+        "name": "Face Powder",
+        "slug": "face-powder",
+        "icon": null,
+
+        "details": null,
+        "parent": 50,
+        "type_id": 3,
+        "created_at": "2021-03-09T05:46:24.000000Z",
+        "updated_at": "2021-03-09T05:46:24.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+
+  {
+    "id": 54,
+    "name": "Eyes",
+    "slug": "eyes",
+    "icon": "Eyes",
+
+    "details": null,
+    "parent": null,
+    "type_id": 3,
+    "created_at": "2021-03-09T05:46:51.000000Z",
+    "updated_at": "2021-03-09T05:46:51.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 3,
+      "name": "Makeup",
+      "slug": "makeup",
+      "icon": "FacialCare",
+      "image": null,
+      "created_at": "2021-03-08T07:19:12.000000Z",
+      "updated_at": "2021-03-08T07:19:12.000000Z"
+    },
+    "children": [
+      {
+        "id": 55,
+        "name": "Eye Shadow",
+        "slug": "eye-shadow",
+        "icon": null,
+
+        "details": null,
+        "parent": 54,
+        "type_id": 3,
+        "created_at": "2021-03-09T05:47:10.000000Z",
+        "updated_at": "2021-03-09T05:47:10.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 56,
+        "name": "Glitter",
+        "slug": "glitter",
+        "icon": null,
+
+        "details": null,
+        "parent": 54,
+        "type_id": 3,
+        "created_at": "2021-03-09T05:47:28.000000Z",
+        "updated_at": "2021-03-09T05:47:28.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 57,
+        "name": "Mascara",
+        "slug": "mascara",
+        "icon": null,
+
+        "details": null,
+        "parent": 54,
+        "type_id": 3,
+        "created_at": "2021-03-09T05:47:47.000000Z",
+        "updated_at": "2021-03-09T05:47:47.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+
+  {
+    "id": 58,
+    "name": "Lips",
+    "slug": "lips",
+    "icon": "Lips",
+
+    "details": null,
+    "parent": null,
+    "type_id": 3,
+    "created_at": "2021-03-09T05:48:13.000000Z",
+    "updated_at": "2021-03-09T05:48:13.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 3,
+      "name": "Makeup",
+      "slug": "makeup",
+      "icon": "FacialCare",
+      "image": null,
+      "created_at": "2021-03-08T07:19:12.000000Z",
+      "updated_at": "2021-03-08T07:19:12.000000Z"
+    },
+    "children": [
+      {
+        "id": 59,
+        "name": "Lip Gloss",
+        "slug": "lip-liner",
+        "icon": null,
+
+        "details": null,
+        "parent": 58,
+        "type_id": 3,
+        "created_at": "2021-03-09T05:48:28.000000Z",
+        "updated_at": "2021-03-09T05:48:58.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 60,
+        "name": "Lip Stick",
+        "slug": "lip-stick",
+        "icon": null,
+
+        "details": null,
+        "parent": 58,
+        "type_id": 3,
+        "created_at": "2021-03-09T05:49:35.000000Z",
+        "updated_at": "2021-03-09T05:49:35.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 61,
+        "name": "Lip Kit",
+        "slug": "lip-kit",
+        "icon": null,
+
+        "details": null,
+        "parent": 58,
+        "type_id": 3,
+        "created_at": "2021-03-09T05:49:49.000000Z",
+        "updated_at": "2021-03-09T05:49:49.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Accessories",
+    "slug": "accessories-1",
+    "icon": "Accessories",
+
+    "details": null,
+    "parent": null,
+    "type_id": 3,
+    "created_at": "2021-03-09T06:02:05.000000Z",
+    "updated_at": "2021-03-09T06:02:05.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 3,
+      "name": "Makeup",
+      "slug": "makeup",
+      "icon": "FacialCare",
+      "image": null,
+      "created_at": "2021-03-08T07:19:12.000000Z",
+      "updated_at": "2021-03-08T07:19:12.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 63,
+    "name": "Shaving Needs",
+    "slug": "shaving-needs-1",
+    "icon": "ShavingNeeds",
+
+    "details": null,
+    "parent": null,
+    "type_id": 3,
+    "created_at": "2021-03-09T06:02:24.000000Z",
+    "updated_at": "2021-03-09T06:02:24.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 3,
+      "name": "Makeup",
+      "slug": "makeup",
+      "icon": "FacialCare",
+      "image": null,
+      "created_at": "2021-03-08T07:19:12.000000Z",
+      "updated_at": "2021-03-08T07:19:12.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 64,
+    "name": "Oral Care",
+    "slug": "oral-care-1",
+    "icon": "OralCare",
+
+    "details": null,
+    "parent": null,
+    "type_id": 3,
+    "created_at": "2021-03-09T06:02:47.000000Z",
+    "updated_at": "2021-03-09T06:02:47.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 3,
+      "name": "Makeup",
+      "slug": "makeup",
+      "icon": "FacialCare",
+      "image": null,
+      "created_at": "2021-03-08T07:19:12.000000Z",
+      "updated_at": "2021-03-08T07:19:12.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 65,
+    "name": "Facial Care",
+    "slug": "facial-care",
+    "icon": "FacialCare",
+
+    "details": null,
+    "parent": null,
+    "type_id": 3,
+    "created_at": "2021-03-09T06:03:15.000000Z",
+    "updated_at": "2021-03-09T06:03:15.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 3,
+      "name": "Makeup",
+      "slug": "makeup",
+      "icon": "FacialCare",
+      "image": null,
+      "created_at": "2021-03-08T07:19:12.000000Z",
+      "updated_at": "2021-03-08T07:19:12.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 66,
+    "name": "Deodorant",
+    "slug": "deodorant-1",
+    "icon": "Deodorant",
+
+    "details": null,
+    "parent": null,
+    "type_id": 3,
+    "created_at": "2021-03-09T06:03:30.000000Z",
+    "updated_at": "2021-03-09T06:03:30.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 3,
+      "name": "Makeup",
+      "slug": "makeup",
+      "icon": "FacialCare",
+      "image": null,
+      "created_at": "2021-03-08T07:19:12.000000Z",
+      "updated_at": "2021-03-08T07:19:12.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 67,
+    "name": "Bath & Oil",
+    "slug": "bath-oil",
+    "icon": "BathOil",
+
+    "details": null,
+    "parent": null,
+    "type_id": 3,
+    "created_at": "2021-03-09T06:03:46.000000Z",
+    "updated_at": "2021-03-09T06:03:46.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 3,
+      "name": "Makeup",
+      "slug": "makeup",
+      "icon": "FacialCare",
+      "image": null,
+      "created_at": "2021-03-08T07:19:12.000000Z",
+      "updated_at": "2021-03-08T07:19:12.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 68,
+    "name": "Women Dress",
+    "slug": "women-dress",
+    "icon": "WomenDress",
+
+    "details": null,
+    "parent": null,
+    "type_id": 5,
+    "created_at": "2021-03-09T06:25:14.000000Z",
+    "updated_at": "2021-03-09T06:25:14.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 5,
+      "name": "Clothing",
+      "slug": "clothing",
+      "icon": "DressIcon",
+      "image": null,
+      "created_at": "2021-03-08T07:19:38.000000Z",
+      "updated_at": "2021-03-08T07:19:38.000000Z"
+    },
+    "children": [
+      {
+        "id": 69,
+        "name": "Printed",
+        "slug": "printed",
+        "icon": null,
+
+        "details": null,
+        "parent": 68,
+        "type_id": 5,
+        "created_at": "2021-03-09T06:26:10.000000Z",
+        "updated_at": "2021-03-09T06:26:10.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 70,
+        "name": "Floral",
+        "slug": "floral",
+        "icon": null,
+
+        "details": null,
+        "parent": 68,
+        "type_id": 5,
+        "created_at": "2021-03-09T06:26:52.000000Z",
+        "updated_at": "2021-03-09T06:26:52.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 71,
+        "name": "Single Color",
+        "slug": "single-color",
+        "icon": null,
+
+        "details": null,
+        "parent": 68,
+        "type_id": 5,
+        "created_at": "2021-03-09T06:27:12.000000Z",
+        "updated_at": "2021-03-09T06:27:12.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+
+  {
+    "id": 72,
+    "name": "Outer Wear",
+    "slug": "outer-wear",
+    "icon": "OuterWear",
+
+    "details": null,
+    "parent": null,
+    "type_id": 5,
+    "created_at": "2021-03-09T08:55:55.000000Z",
+    "updated_at": "2021-03-09T08:55:55.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 5,
+      "name": "Clothing",
+      "slug": "clothing",
+      "icon": "DressIcon",
+      "image": null,
+      "created_at": "2021-03-08T07:19:38.000000Z",
+      "updated_at": "2021-03-08T07:19:38.000000Z"
+    },
+    "children": [
+      {
+        "id": 73,
+        "name": "Hoodie",
+        "slug": "hoodie",
+        "icon": null,
+
+        "details": null,
+        "parent": 72,
+        "type_id": 5,
+        "created_at": "2021-03-09T08:56:39.000000Z",
+        "updated_at": "2021-03-09T08:56:39.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 74,
+        "name": "Jacket",
+        "slug": "jacket",
+        "icon": null,
+
+        "details": null,
+        "parent": 72,
+        "type_id": 5,
+        "created_at": "2021-03-09T08:56:55.000000Z",
+        "updated_at": "2021-03-09T08:56:55.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 75,
+        "name": "Blazer",
+        "slug": "blazer",
+        "icon": null,
+
+        "details": null,
+        "parent": 72,
+        "type_id": 5,
+        "created_at": "2021-03-09T08:57:20.000000Z",
+        "updated_at": "2021-03-09T08:57:20.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 76,
+        "name": "Waist Coat",
+        "slug": "waist-coat",
+        "icon": null,
+
+        "details": null,
+        "parent": 72,
+        "type_id": 5,
+        "created_at": "2021-03-09T08:57:40.000000Z",
+        "updated_at": "2021-03-09T08:57:40.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+
+  {
+    "id": 77,
+    "name": "Pants",
+    "slug": "pants",
+    "icon": "Pants",
+
+    "details": null,
+    "parent": null,
+    "type_id": 5,
+    "created_at": "2021-03-09T08:58:22.000000Z",
+    "updated_at": "2021-03-09T08:58:22.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 5,
+      "name": "Clothing",
+      "slug": "clothing",
+      "icon": "DressIcon",
+      "image": null,
+      "created_at": "2021-03-08T07:19:38.000000Z",
+      "updated_at": "2021-03-08T07:19:38.000000Z"
+    },
+    "children": [
+      {
+        "id": 78,
+        "name": "Jeans",
+        "slug": "jeans",
+        "icon": null,
+
+        "details": null,
+        "parent": 77,
+        "type_id": 5,
+        "created_at": "2021-03-09T08:58:43.000000Z",
+        "updated_at": "2021-03-09T08:58:43.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 79,
+        "name": "Chinos",
+        "slug": "chinos",
+        "icon": null,
+
+        "details": null,
+        "parent": 77,
+        "type_id": 5,
+        "created_at": "2021-03-09T08:58:57.000000Z",
+        "updated_at": "2021-03-09T08:58:57.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 80,
+        "name": "Sports",
+        "slug": "sports",
+        "icon": null,
+
+        "details": null,
+        "parent": 77,
+        "type_id": 5,
+        "created_at": "2021-03-09T08:59:13.000000Z",
+        "updated_at": "2021-03-09T08:59:13.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+
+  {
+    "id": 81,
+    "name": "Tops",
+    "slug": "tops",
+    "icon": "Tops",
+
+    "details": null,
+    "parent": null,
+    "type_id": 5,
+    "created_at": "2021-03-09T08:59:55.000000Z",
+    "updated_at": "2021-03-09T08:59:55.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 5,
+      "name": "Clothing",
+      "slug": "clothing",
+      "icon": "DressIcon",
+      "image": null,
+      "created_at": "2021-03-08T07:19:38.000000Z",
+      "updated_at": "2021-03-08T07:19:38.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 82,
+    "name": "Skirts",
+    "slug": "skirts",
+    "icon": "Skirts",
+
+    "details": null,
+    "parent": null,
+    "type_id": 5,
+    "created_at": "2021-03-09T09:01:43.000000Z",
+    "updated_at": "2021-03-25T13:01:38.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 5,
+      "name": "Clothing",
+      "slug": "clothing",
+      "icon": "DressIcon",
+      "image": null,
+      "created_at": "2021-03-08T07:19:38.000000Z",
+      "updated_at": "2021-03-08T07:19:38.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 83,
+    "name": "Shirts",
+    "slug": "shirts",
+    "icon": "Shirts",
+
+    "details": null,
+    "parent": null,
+    "type_id": 5,
+    "created_at": "2021-03-09T09:02:05.000000Z",
+    "updated_at": "2021-03-09T09:02:05.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 5,
+      "name": "Clothing",
+      "slug": "clothing",
+      "icon": "DressIcon",
+      "image": null,
+      "created_at": "2021-03-08T07:19:38.000000Z",
+      "updated_at": "2021-03-08T07:19:38.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 84,
+    "name": "Purse",
+    "slug": "purse",
+    "icon": "Purse",
+
+    "details": null,
+    "parent": null,
+    "type_id": 4,
+    "created_at": "2021-03-09T09:49:20.000000Z",
+    "updated_at": "2021-03-09T09:49:20.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 4,
+      "name": "Bags",
+      "slug": "bags",
+      "icon": "Handbag",
+      "image": null,
+      "created_at": "2021-03-08T07:19:28.000000Z",
+      "updated_at": "2021-03-08T07:19:28.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 85,
+    "name": "Hand bags",
+    "slug": "hand-bags",
+    "icon": "HandBags",
+
+    "details": null,
+    "parent": null,
+    "type_id": 4,
+    "created_at": "2021-03-09T09:49:50.000000Z",
+    "updated_at": "2021-03-09T09:49:50.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 4,
+      "name": "Bags",
+      "slug": "bags",
+      "icon": "Handbag",
+      "image": null,
+      "created_at": "2021-03-08T07:19:28.000000Z",
+      "updated_at": "2021-03-08T07:19:28.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 86,
+    "name": "Shoulder bags",
+    "slug": "shoulder-bags",
+    "icon": "ShoulderBags",
+
+    "details": null,
+    "parent": null,
+    "type_id": 4,
+    "created_at": "2021-03-09T09:50:10.000000Z",
+    "updated_at": "2021-03-09T09:50:10.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 4,
+      "name": "Bags",
+      "slug": "bags",
+      "icon": "Handbag",
+      "image": null,
+      "created_at": "2021-03-08T07:19:28.000000Z",
+      "updated_at": "2021-03-08T07:19:28.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 87,
+    "name": "Wallet",
+    "slug": "wallet",
+    "icon": "Wallet",
+
+    "details": null,
+    "parent": null,
+    "type_id": 4,
+    "created_at": "2021-03-09T09:50:29.000000Z",
+    "updated_at": "2021-03-09T09:50:29.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 4,
+      "name": "Bags",
+      "slug": "bags",
+      "icon": "Handbag",
+      "image": null,
+      "created_at": "2021-03-08T07:19:28.000000Z",
+      "updated_at": "2021-03-08T07:19:28.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 88,
+    "name": "Laptop bags",
+    "slug": "laptop-bags",
+    "icon": "LaptopBags",
+
+    "details": null,
+    "parent": null,
+    "type_id": 4,
+    "created_at": "2021-03-09T09:50:49.000000Z",
+    "updated_at": "2021-03-09T09:50:49.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 4,
+      "name": "Bags",
+      "slug": "bags",
+      "icon": "Handbag",
+      "image": null,
+      "created_at": "2021-03-08T07:19:28.000000Z",
+      "updated_at": "2021-03-08T07:19:28.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 89,
+    "name": "Juice",
+    "slug": "juice-1",
+    "icon": null,
+    "image": {
+      "id": "423",
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/422/Juice_q1dlke.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/422/conversions/Juice_q1dlke-thumbnail.jpg"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 2,
+    "created_at": "2021-03-13T14:34:33.000000Z",
+    "updated_at": "2021-03-13T14:34:33.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 2,
+      "name": "Bakery",
+      "slug": "bakery",
+      "icon": "Bakery",
+      "image": null,
+      "created_at": "2021-03-08T07:18:46.000000Z",
+      "updated_at": "2021-03-08T07:18:46.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 90,
+    "name": "Coffee & Tea",
+    "slug": "coffee-tea",
+    "icon": null,
+    "image": {
+      "id": "424",
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/423/Coffee_j6vccc.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/423/conversions/Coffee_j6vccc-thumbnail.jpg"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 2,
+    "created_at": "2021-03-13T14:36:15.000000Z",
+    "updated_at": "2021-03-13T14:36:15.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 2,
+      "name": "Bakery",
+      "slug": "bakery",
+      "icon": "Bakery",
+      "image": null,
+      "created_at": "2021-03-08T07:18:46.000000Z",
+      "updated_at": "2021-03-08T07:18:46.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 91,
+    "name": "Cookies",
+    "slug": "cookies",
+    "icon": null,
+    "image": {
+      "id": "425",
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/424/Cookies_ggshwp.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/424/conversions/Cookies_ggshwp-thumbnail.jpg"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 2,
+    "created_at": "2021-03-13T14:36:44.000000Z",
+    "updated_at": "2021-03-13T14:36:44.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 2,
+      "name": "Bakery",
+      "slug": "bakery",
+      "icon": "Bakery",
+      "image": null,
+      "created_at": "2021-03-08T07:18:46.000000Z",
+      "updated_at": "2021-03-08T07:18:46.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 92,
+    "name": "Round Cake",
+    "slug": "round-cake",
+    "icon": null,
+    "image": {
+      "id": "426",
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/425/Round-Cake_rfsrkr.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/425/conversions/Round-Cake_rfsrkr-thumbnail.jpg"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 2,
+    "created_at": "2021-03-13T14:37:05.000000Z",
+    "updated_at": "2021-03-13T14:37:05.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 2,
+      "name": "Bakery",
+      "slug": "bakery",
+      "icon": "Bakery",
+      "image": null,
+      "created_at": "2021-03-08T07:18:46.000000Z",
+      "updated_at": "2021-03-08T07:18:46.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 93,
+    "name": "Pita Bread",
+    "slug": "pita-bread",
+    "icon": null,
+    "image": {
+      "id": "427",
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/426/Pita-Bread_bvrwtn.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/426/conversions/Pita-Bread_bvrwtn-thumbnail.jpg"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 2,
+    "created_at": "2021-03-13T14:37:27.000000Z",
+    "updated_at": "2021-03-13T14:37:27.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 2,
+      "name": "Bakery",
+      "slug": "bakery",
+      "icon": "Bakery",
+      "image": null,
+      "created_at": "2021-03-08T07:18:46.000000Z",
+      "updated_at": "2021-03-08T07:18:46.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 94,
+    "name": "Sliced Cake",
+    "slug": "sliced-cake",
+    "icon": null,
+    "image": {
+      "id": "428",
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/427/Chees-Cake_whi1yd.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/427/conversions/Chees-Cake_whi1yd-thumbnail.jpg"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 2,
+    "created_at": "2021-03-13T14:37:59.000000Z",
+    "updated_at": "2021-03-13T14:37:59.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 2,
+      "name": "Bakery",
+      "slug": "bakery",
+      "icon": "Bakery",
+      "image": null,
+      "created_at": "2021-03-08T07:18:46.000000Z",
+      "updated_at": "2021-03-08T07:18:46.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 95,
+    "name": "Muffin",
+    "slug": "muffin",
+    "icon": null,
+    "image": {
+      "id": "429",
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/428/Muffin_yiuqcf.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/428/conversions/Muffin_yiuqcf-thumbnail.jpg"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 2,
+    "created_at": "2021-03-13T14:38:24.000000Z",
+    "updated_at": "2021-03-13T14:38:24.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 2,
+      "name": "Bakery",
+      "slug": "bakery",
+      "icon": "Bakery",
+      "image": null,
+      "created_at": "2021-03-08T07:18:46.000000Z",
+      "updated_at": "2021-03-08T07:18:46.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 96,
+    "name": "Danish",
+    "slug": "danish",
+    "icon": null,
+    "image": {
+      "id": "430",
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/429/Danish_ybcbuq.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/429/conversions/Danish_ybcbuq-thumbnail.jpg"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 2,
+    "created_at": "2021-03-13T14:38:56.000000Z",
+    "updated_at": "2021-03-13T14:38:56.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 2,
+      "name": "Bakery",
+      "slug": "bakery",
+      "icon": "Bakery",
+      "image": null,
+      "created_at": "2021-03-08T07:18:46.000000Z",
+      "updated_at": "2021-03-08T07:18:46.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 97,
+    "name": "Croissants",
+    "slug": "croissants",
+    "icon": null,
+    "image": {
+      "id": "431",
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/430/Croissant_nqjflw.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/430/conversions/Croissant_nqjflw-thumbnail.jpg"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 2,
+    "created_at": "2021-03-13T14:39:31.000000Z",
+    "updated_at": "2021-03-13T14:39:31.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 2,
+      "name": "Bakery",
+      "slug": "bakery",
+      "icon": "Bakery",
+      "image": null,
+      "created_at": "2021-03-08T07:18:46.000000Z",
+      "updated_at": "2021-03-08T07:18:46.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 98,
+    "name": "Feeter & Pies",
+    "slug": "feeter-pies",
+    "icon": null,
+    "image": {
+      "id": "432",
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/431/Feeter-pies_eidfxl.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/431/conversions/Feeter-pies_eidfxl-thumbnail.jpg"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 2,
+    "created_at": "2021-03-13T14:40:00.000000Z",
+    "updated_at": "2021-03-13T14:40:00.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 2,
+      "name": "Bakery",
+      "slug": "bakery",
+      "icon": "Bakery",
+      "image": null,
+      "created_at": "2021-03-08T07:18:46.000000Z",
+      "updated_at": "2021-03-08T07:18:46.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 99,
+    "name": "Toast & Loaf",
+    "slug": "toast-loaf",
+    "icon": null,
+    "image": {
+      "id": "433",
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/432/Toast_ufzuwx.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/432/conversions/Toast_ufzuwx-thumbnail.jpg"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 2,
+    "created_at": "2021-03-13T14:40:31.000000Z",
+    "updated_at": "2021-03-13T14:40:31.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 2,
+      "name": "Bakery",
+      "slug": "bakery",
+      "icon": "Bakery",
+      "image": null,
+      "created_at": "2021-03-08T07:18:46.000000Z",
+      "updated_at": "2021-03-08T07:18:46.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 100,
+    "name": "Soft Bread",
+    "slug": "soft-bread",
+    "icon": null,
+    "image": {
+      "id": "434",
+      "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/433/SoftBread_a85vlg.png",
+      "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/433/conversions/SoftBread_a85vlg-thumbnail.jpg"
+    },
+    "details": null,
+    "parent": null,
+    "type_id": 2,
+    "created_at": "2021-03-13T14:40:58.000000Z",
+    "updated_at": "2021-03-13T14:40:58.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 2,
+      "name": "Bakery",
+      "slug": "bakery",
+      "icon": "Bakery",
+      "image": null,
+      "created_at": "2021-03-08T07:18:46.000000Z",
+      "updated_at": "2021-03-08T07:18:46.000000Z"
+    },
+    "children": []
+  },
+  {
+    "id": 101,
+    "name": "Bed",
+    "slug": "bed",
+    "icon": "Bed",
+
+    "details": null,
+    "parent": null,
+    "type_id": 6,
+    "created_at": "2021-03-13T14:43:22.000000Z",
+    "updated_at": "2021-03-13T14:43:22.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 6,
+      "name": "Furniture",
+      "slug": "furniture",
+      "icon": "FurnitureIcon",
+      "image": null,
+      "created_at": "2021-03-08T07:19:49.000000Z",
+      "updated_at": "2021-03-08T07:19:49.000000Z"
+    },
+    "children": [
+      {
+        "id": 102,
+        "name": "Master Bed",
+        "slug": "master-bed",
+        "icon": null,
+
+        "details": null,
+        "parent": 101,
+        "type_id": 6,
+        "created_at": "2021-03-13T14:43:48.000000Z",
+        "updated_at": "2021-03-13T14:43:48.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 103,
+        "name": "Single Bed",
+        "slug": "single-bed",
+        "icon": null,
+
+        "details": null,
+        "parent": 101,
+        "type_id": 6,
+        "created_at": "2021-03-13T14:44:05.000000Z",
+        "updated_at": "2021-03-13T14:44:05.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 104,
+        "name": "Semi Double Bed",
+        "slug": "semi-double-bed",
+        "icon": null,
+
+        "details": null,
+        "parent": 101,
+        "type_id": 6,
+        "created_at": "2021-03-13T14:44:24.000000Z",
+        "updated_at": "2021-03-13T14:44:24.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+
+  {
+    "id": 105,
+    "name": "Chair",
+    "slug": "chair",
+    "icon": "Chair",
+
+    "details": null,
+    "parent": null,
+    "type_id": 6,
+    "created_at": "2021-03-13T14:44:51.000000Z",
+    "updated_at": "2021-03-13T14:44:51.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 6,
+      "name": "Furniture",
+      "slug": "furniture",
+      "icon": "FurnitureIcon",
+      "image": null,
+      "created_at": "2021-03-08T07:19:49.000000Z",
+      "updated_at": "2021-03-08T07:19:49.000000Z"
+    },
+    "children": [
+      {
+        "id": 106,
+        "name": "Cozy Chair",
+        "slug": "cozy-chair",
+        "icon": null,
+
+        "details": null,
+        "parent": 105,
+        "type_id": 6,
+        "created_at": "2021-03-13T14:45:07.000000Z",
+        "updated_at": "2021-03-13T14:45:07.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 107,
+        "name": "Rocking Chair",
+        "slug": "rocking-chair",
+        "icon": null,
+
+        "details": null,
+        "parent": 105,
+        "type_id": 6,
+        "created_at": "2021-03-13T14:45:49.000000Z",
+        "updated_at": "2021-03-13T14:45:49.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 108,
+        "name": "Single Chair",
+        "slug": "single-chair",
+        "icon": null,
+
+        "details": null,
+        "parent": 105,
+        "type_id": 6,
+        "created_at": "2021-03-13T14:46:11.000000Z",
+        "updated_at": "2021-03-13T14:46:11.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+
+  {
+    "id": 109,
+    "name": "Sofa",
+    "slug": "sofa",
+    "icon": "Sofa",
+
+    "details": null,
+    "parent": null,
+    "type_id": 6,
+    "created_at": "2021-03-13T14:46:43.000000Z",
+    "updated_at": "2021-03-13T14:46:43.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 6,
+      "name": "Furniture",
+      "slug": "furniture",
+      "icon": "FurnitureIcon",
+      "image": null,
+      "created_at": "2021-03-08T07:19:49.000000Z",
+      "updated_at": "2021-03-08T07:19:49.000000Z"
+    },
+    "children": [
+      {
+        "id": 110,
+        "name": "Double Sofa",
+        "slug": "double-sofa",
+        "icon": null,
+
+        "details": null,
+        "parent": 109,
+        "type_id": 6,
+        "created_at": "2021-03-13T14:47:04.000000Z",
+        "updated_at": "2021-03-13T14:47:04.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 111,
+        "name": "Single Sofa",
+        "slug": "single-sofa",
+        "icon": null,
+
+        "details": null,
+        "parent": 109,
+        "type_id": 6,
+        "created_at": "2021-03-13T14:47:22.000000Z",
+        "updated_at": "2021-03-13T14:47:22.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 112,
+        "name": "Sofa Set",
+        "slug": "sofa-set",
+        "icon": null,
+
+        "details": null,
+        "parent": 109,
+        "type_id": 6,
+        "created_at": "2021-03-13T14:47:40.000000Z",
+        "updated_at": "2021-03-13T14:47:40.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+
+  {
+    "id": 113,
+    "name": "Table",
+    "slug": "table",
+    "icon": "Table",
+
+    "details": null,
+    "parent": null,
+    "type_id": 6,
+    "created_at": "2021-03-13T14:48:34.000000Z",
+    "updated_at": "2021-03-13T14:48:34.000000Z",
+    "deleted_at": null,
+    "type": {
+      "id": 6,
+      "name": "Furniture",
+      "slug": "furniture",
+      "icon": "FurnitureIcon",
+      "image": null,
+      "created_at": "2021-03-08T07:19:49.000000Z",
+      "updated_at": "2021-03-08T07:19:49.000000Z"
+    },
+    "children": [
+      {
+        "id": 114,
+        "name": "Bedside Table",
+        "slug": "bedside-table",
+        "icon": null,
+
+        "details": null,
+        "parent": 113,
+        "type_id": 6,
+        "created_at": "2021-03-13T14:50:14.000000Z",
+        "updated_at": "2021-03-13T14:50:14.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 115,
+        "name": "Coffee Table",
+        "slug": "coffee-table",
+        "icon": null,
+
+        "details": null,
+        "parent": 113,
+        "type_id": 6,
+        "created_at": "2021-03-13T14:50:37.000000Z",
+        "updated_at": "2021-03-13T14:50:37.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 116,
+        "name": "Dining Table",
+        "slug": "dining-table",
+        "icon": null,
+
+        "details": null,
+        "parent": 113,
+        "type_id": 6,
+        "created_at": "2021-03-13T14:50:59.000000Z",
+        "updated_at": "2021-03-13T14:50:59.000000Z",
+        "deleted_at": null
+      }
+    ]
+  }
+]

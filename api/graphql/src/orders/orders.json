@@ -1,0 +1,3578 @@
+[
+  {
+    "id": 21,
+    "tracking_number": "KN72GQqD4jJ0",
+    "customer_id": 2,
+    "customer_contact": "19365141641631",
+    "status": {
+      "id": 1,
+      "name": "Order Received",
+      "serial": 1,
+      "color": "#23b848",
+      "created_at": "2021-03-08T21:33:52.000000Z",
+      "updated_at": "2021-03-08T21:34:04.000000Z"
+    },
+    "amount": 21.6,
+    "sales_tax": 0.432,
+    "paid_total": 72.032,
+    "total": 72.032,
+    "coupon_id": null,
+    "parent_id": null,
+    "shop_id": null,
+    "discount": 0,
+    "payment_id": null,
+    "payment_gateway": "cod",
+    "shipping_address": {
+      "zip": "40391",
+      "city": "Winchester",
+      "state": "KY",
+      "country": "United States",
+      "street_address": "2148  Straford Park"
+    },
+    "billing_address": {
+      "zip": "99614",
+      "city": "Kipnuk",
+      "state": "AK",
+      "country": "United States",
+      "street_address": "2231 Kidd Avenue"
+    },
+    "logistics_provider": null,
+    "delivery_fee": 50,
+    "delivery_time": "11.00 AM - 2.00 PM",
+    "deleted_at": null,
+    "created_at": "2021-08-26T11:24:26.000000Z",
+    "updated_at": "2021-08-26T11:24:26.000000Z",
+    "customer": {
+      "id": 2,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2021-08-18T10:30:29.000000Z",
+      "updated_at": "2021-08-18T13:17:53.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    },
+    "products": [
+      {
+        "id": 6,
+        "name": "Clementines",
+        "slug": "clementines",
+        "description": "clementine is a tangor, a citrus fruit hybrid between a willowleaf mandarin orange and a sweet orange, named for its late 19th-century discoverer. The exterior is a deep orange colour with a smooth, glossy appearance.",
+        "type_id": 1,
+        "price": 3,
+        "shop_id": 6,
+        "sale_price": 2.5,
+        "sku": "6",
+        "quantity": 50,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "1lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "6",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/6/clementines.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/6/conversions/clementines-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "590",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/589/Clementines-1.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/589/conversions/Clementines-1-thumbnail.jpg"
+          },
+          {
+            "id": "591",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/590/Clementines.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/590/conversions/Clementines-thumbnail.jpg"
+          },
+          {
+            "id": "592",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/591/Clementines-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/591/conversions/Clementines-2-thumbnail.jpg"
+          },
+          {
+            "id": "743",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/742/clementines_h74qrp.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/742/conversions/clementines_h74qrp-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:45:18.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 21,
+          "product_id": 6,
+          "order_quantity": "1",
+          "unit_price": 2.5,
+          "subtotal": 2.5,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T11:24:26.000000Z",
+          "updated_at": "2021-08-26T11:24:26.000000Z"
+        },
+        "variation_options": []
+      },
+      {
+        "id": 7,
+        "name": "Sweet Corn",
+        "slug": "sweet-corn",
+        "description": "Maize, also known as corn, is a cereal grain first domesticated by indigenous peoples in southern Mexico about 10,000 years ago. The leafy stalk of the plant produces pollen inflorescences and separate ovuliferous inflorescences called ears that yield kernels or seeds, which are fruits.",
+        "type_id": 1,
+        "price": 5,
+        "shop_id": 6,
+        "sale_price": 4,
+        "sku": "7",
+        "quantity": 50,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "1lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "7",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/7/Corn.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/7/conversions/Corn-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "593",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/592/Sweet-Corn-1.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/592/conversions/Sweet-Corn-1-thumbnail.jpg"
+          },
+          {
+            "id": "594",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/593/Sweet-Corn-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/593/conversions/Sweet-Corn-2-thumbnail.jpg"
+          },
+          {
+            "id": "595",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/594/Sweet-Corn.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/594/conversions/Sweet-Corn-thumbnail.jpg"
+          },
+          {
+            "id": "744",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/743/Corn_dlrtbv.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/743/conversions/Corn_dlrtbv-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:48:20.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 21,
+          "product_id": 7,
+          "order_quantity": "1",
+          "unit_price": 4,
+          "subtotal": 4,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T11:24:26.000000Z",
+          "updated_at": "2021-08-26T11:24:26.000000Z"
+        },
+        "variation_options": []
+      },
+      {
+        "id": 1,
+        "name": "Apples",
+        "slug": "apples",
+        "description": "An apple is a sweet, edible fruit produced by an apple tree (Malus domestica). Apple trees are ... The skin of ripe apples is generally red, yellow, green, pink, or russetted, though many bi- or tri-colored cultivars may be found.",
+        "type_id": 1,
+        "price": 2,
+        "shop_id": 6,
+        "sale_price": 1.6,
+        "sku": "1",
+        "quantity": 18,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "1lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "1",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1/Apples.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1/conversions/Apples-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "573",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/572/apple-1.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/572/conversions/apple-1-thumbnail.jpg"
+          },
+          {
+            "id": "574",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/573/apple-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/573/conversions/apple-2-thumbnail.jpg"
+          },
+          {
+            "id": "575",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/574/apple.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/574/conversions/apple-thumbnail.jpg"
+          },
+          {
+            "id": "737",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/736/apple-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/736/conversions/apple-2-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:24:53.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 21,
+          "product_id": 1,
+          "order_quantity": "1",
+          "unit_price": 1.6,
+          "subtotal": 1.6,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T11:24:26.000000Z",
+          "updated_at": "2021-08-26T11:24:26.000000Z"
+        },
+        "variation_options": []
+      },
+      {
+        "id": 4,
+        "name": "Brussels Sprout",
+        "slug": "brussels-sprout",
+        "description": "The Brussels sprout is a member of the Gemmifera Group of cabbages, grown for its edible buds. The leaf vegetables are typically 1.5–4.0 cm in diameter and look like miniature cabbages. The Brussels sprout has long been popular in Brussels, Belgium, and may have gained its name there.",
+        "type_id": 1,
+        "price": 5,
+        "shop_id": 6,
+        "sale_price": 3,
+        "sku": "4",
+        "quantity": 17,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "1lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "4",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/4/BrusselsSprouts.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/4/conversions/BrusselsSprouts-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "582",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/581/Brussels-Sprout-1.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/581/conversions/Brussels-Sprout-1-thumbnail.jpg"
+          },
+          {
+            "id": "583",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/582/Brussels-Sprout-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/582/conversions/Brussels-Sprout-2-thumbnail.jpg"
+          },
+          {
+            "id": "584",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/583/Brussels-Sprout.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/583/conversions/Brussels-Sprout-thumbnail.jpg"
+          },
+          {
+            "id": "741",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/740/BrusselsSprouts_adwhet.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/740/conversions/BrusselsSprouts_adwhet-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:42:32.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 21,
+          "product_id": 4,
+          "order_quantity": "1",
+          "unit_price": 3,
+          "subtotal": 3,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T11:24:26.000000Z",
+          "updated_at": "2021-08-26T11:24:26.000000Z"
+        },
+        "variation_options": []
+      },
+      {
+        "id": 8,
+        "name": "Cucumber",
+        "slug": "cucumber",
+        "description": "Cucumber is a widely cultivated plant in the gourd family, Cucurbitaceae. It is a creeping vine that bears cucumiform fruits that are used as vegetables. There are three main varieties of cucumber: slicing, pickling, and seedless. Within these varieties, several cultivars have been created.",
+        "type_id": 1,
+        "price": 2.5,
+        "shop_id": 6,
+        "sale_price": null,
+        "sku": "8",
+        "quantity": 25,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "2.5lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "8",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/8/Cucumber.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/8/conversions/Cucumber-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "596",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/595/Cucumber-1.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/595/conversions/Cucumber-1-thumbnail.jpg"
+          },
+          {
+            "id": "597",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/596/Cucumber-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/596/conversions/Cucumber-2-thumbnail.jpg"
+          },
+          {
+            "id": "598",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/597/Cucumber.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/597/conversions/Cucumber-thumbnail.jpg"
+          },
+          {
+            "id": "745",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/744/Cucumber_w6hlxr.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/744/conversions/Cucumber_w6hlxr-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:49:18.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 21,
+          "product_id": 8,
+          "order_quantity": "1",
+          "unit_price": 2.5,
+          "subtotal": 2.5,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T11:24:26.000000Z",
+          "updated_at": "2021-08-26T11:24:26.000000Z"
+        },
+        "variation_options": []
+      },
+      {
+        "id": 9,
+        "name": "Dates",
+        "slug": "dates",
+        "description": "Phoenix dactylifera, commonly known as date or date palm, is a flowering plant species in the palm family, Arecaceae, cultivated for its edible sweet fruit.",
+        "type_id": 1,
+        "price": 10,
+        "shop_id": 6,
+        "sale_price": 8,
+        "sku": "9",
+        "quantity": 50,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "1.5lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "10",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/10/Dates.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/10/conversions/Dates-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "599",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/598/Dates-1.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/598/conversions/Dates-1-thumbnail.jpg"
+          },
+          {
+            "id": "600",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/599/Dates-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/599/conversions/Dates-2-thumbnail.jpg"
+          },
+          {
+            "id": "601",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/600/Dates.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/600/conversions/Dates-thumbnail.jpg"
+          },
+          {
+            "id": "746",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/745/Dates_pq4oad.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/745/conversions/Dates_pq4oad-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:50:41.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 21,
+          "product_id": 9,
+          "order_quantity": "1",
+          "unit_price": 8,
+          "subtotal": 8,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T11:24:26.000000Z",
+          "updated_at": "2021-08-26T11:24:26.000000Z"
+        },
+        "variation_options": []
+      }
+    ],
+    "children": [
+      {
+        "id": 22,
+        "tracking_number": "bVH8G97r6wSC",
+        "customer_id": 2,
+        "customer_contact": "19365141641631",
+        "status": {
+          "id": 1,
+          "name": "Order Received",
+          "serial": 1,
+          "color": "#23b848",
+          "created_at": "2021-03-08T21:33:52.000000Z",
+          "updated_at": "2021-03-08T21:34:04.000000Z"
+        },
+        "amount": 21.6,
+        "sales_tax": 0,
+        "paid_total": 21.6,
+        "total": 21.6,
+        "coupon_id": null,
+        "parent_id": 21,
+        "shop_id": 6,
+        "discount": 0,
+        "payment_id": null,
+        "payment_gateway": "cod",
+        "shipping_address": {
+          "zip": "40391",
+          "city": "Winchester",
+          "state": "KY",
+          "country": "United States",
+          "street_address": "2148  Straford Park"
+        },
+        "billing_address": {
+          "zip": "40391",
+          "city": "Winchester",
+          "state": "KY",
+          "country": "United States",
+          "street_address": "2148  Straford Park"
+        },
+        "logistics_provider": null,
+        "delivery_fee": 0,
+        "delivery_time": "11.00 AM - 2.00 PM",
+        "deleted_at": null,
+        "created_at": "2021-08-26T11:24:26.000000Z",
+        "updated_at": "2021-08-26T11:24:26.000000Z",
+        "customer": {
+          "id": 2,
+          "name": "Customer",
+          "email": "customer@demo.com",
+          "email_verified_at": null,
+          "created_at": "2021-08-18T10:30:29.000000Z",
+          "updated_at": "2021-08-18T13:17:53.000000Z",
+          "is_active": 1,
+          "shop_id": null
+        },
+        "products": [
+          {
+            "id": 6,
+            "name": "Clementines",
+            "slug": "clementines",
+            "description": "clementine is a tangor, a citrus fruit hybrid between a willowleaf mandarin orange and a sweet orange, named for its late 19th-century discoverer. The exterior is a deep orange colour with a smooth, glossy appearance.",
+            "type_id": 1,
+            "price": 3,
+            "shop_id": 6,
+            "sale_price": 2.5,
+            "sku": "6",
+            "quantity": 50,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "1lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "6",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/6/clementines.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/6/conversions/clementines-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "590",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/589/Clementines-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/589/conversions/Clementines-1-thumbnail.jpg"
+              },
+              {
+                "id": "591",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/590/Clementines.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/590/conversions/Clementines-thumbnail.jpg"
+              },
+              {
+                "id": "592",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/591/Clementines-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/591/conversions/Clementines-2-thumbnail.jpg"
+              },
+              {
+                "id": "743",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/742/clementines_h74qrp.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/742/conversions/clementines_h74qrp-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:45:18.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 22,
+              "product_id": 6,
+              "order_quantity": "1",
+              "unit_price": 2.5,
+              "subtotal": 2.5,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T11:24:26.000000Z",
+              "updated_at": "2021-08-26T11:24:26.000000Z"
+            },
+            "variation_options": []
+          },
+          {
+            "id": 7,
+            "name": "Sweet Corn",
+            "slug": "sweet-corn",
+            "description": "Maize, also known as corn, is a cereal grain first domesticated by indigenous peoples in southern Mexico about 10,000 years ago. The leafy stalk of the plant produces pollen inflorescences and separate ovuliferous inflorescences called ears that yield kernels or seeds, which are fruits.",
+            "type_id": 1,
+            "price": 5,
+            "shop_id": 6,
+            "sale_price": 4,
+            "sku": "7",
+            "quantity": 50,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "1lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "7",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/7/Corn.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/7/conversions/Corn-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "593",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/592/Sweet-Corn-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/592/conversions/Sweet-Corn-1-thumbnail.jpg"
+              },
+              {
+                "id": "594",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/593/Sweet-Corn-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/593/conversions/Sweet-Corn-2-thumbnail.jpg"
+              },
+              {
+                "id": "595",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/594/Sweet-Corn.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/594/conversions/Sweet-Corn-thumbnail.jpg"
+              },
+              {
+                "id": "744",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/743/Corn_dlrtbv.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/743/conversions/Corn_dlrtbv-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:48:20.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 22,
+              "product_id": 7,
+              "order_quantity": "1",
+              "unit_price": 4,
+              "subtotal": 4,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T11:24:26.000000Z",
+              "updated_at": "2021-08-26T11:24:26.000000Z"
+            },
+            "variation_options": []
+          },
+          {
+            "id": 1,
+            "name": "Apples",
+            "slug": "apples",
+            "description": "An apple is a sweet, edible fruit produced by an apple tree (Malus domestica). Apple trees are ... The skin of ripe apples is generally red, yellow, green, pink, or russetted, though many bi- or tri-colored cultivars may be found.",
+            "type_id": 1,
+            "price": 2,
+            "shop_id": 6,
+            "sale_price": 1.6,
+            "sku": "1",
+            "quantity": 18,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "1lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "1",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1/Apples.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1/conversions/Apples-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "573",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/572/apple-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/572/conversions/apple-1-thumbnail.jpg"
+              },
+              {
+                "id": "574",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/573/apple-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/573/conversions/apple-2-thumbnail.jpg"
+              },
+              {
+                "id": "575",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/574/apple.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/574/conversions/apple-thumbnail.jpg"
+              },
+              {
+                "id": "737",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/736/apple-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/736/conversions/apple-2-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:24:53.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 22,
+              "product_id": 1,
+              "order_quantity": "1",
+              "unit_price": 1.6,
+              "subtotal": 1.6,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T11:24:26.000000Z",
+              "updated_at": "2021-08-26T11:24:26.000000Z"
+            },
+            "variation_options": []
+          },
+          {
+            "id": 4,
+            "name": "Brussels Sprout",
+            "slug": "brussels-sprout",
+            "description": "The Brussels sprout is a member of the Gemmifera Group of cabbages, grown for its edible buds. The leaf vegetables are typically 1.5–4.0 cm in diameter and look like miniature cabbages. The Brussels sprout has long been popular in Brussels, Belgium, and may have gained its name there.",
+            "type_id": 1,
+            "price": 5,
+            "shop_id": 6,
+            "sale_price": 3,
+            "sku": "4",
+            "quantity": 17,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "1lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "4",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/4/BrusselsSprouts.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/4/conversions/BrusselsSprouts-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "582",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/581/Brussels-Sprout-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/581/conversions/Brussels-Sprout-1-thumbnail.jpg"
+              },
+              {
+                "id": "583",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/582/Brussels-Sprout-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/582/conversions/Brussels-Sprout-2-thumbnail.jpg"
+              },
+              {
+                "id": "584",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/583/Brussels-Sprout.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/583/conversions/Brussels-Sprout-thumbnail.jpg"
+              },
+              {
+                "id": "741",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/740/BrusselsSprouts_adwhet.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/740/conversions/BrusselsSprouts_adwhet-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:42:32.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 22,
+              "product_id": 4,
+              "order_quantity": "1",
+              "unit_price": 3,
+              "subtotal": 3,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T11:24:26.000000Z",
+              "updated_at": "2021-08-26T11:24:26.000000Z"
+            },
+            "variation_options": []
+          },
+          {
+            "id": 8,
+            "name": "Cucumber",
+            "slug": "cucumber",
+            "description": "Cucumber is a widely cultivated plant in the gourd family, Cucurbitaceae. It is a creeping vine that bears cucumiform fruits that are used as vegetables. There are three main varieties of cucumber: slicing, pickling, and seedless. Within these varieties, several cultivars have been created.",
+            "type_id": 1,
+            "price": 2.5,
+            "shop_id": 6,
+            "sale_price": null,
+            "sku": "8",
+            "quantity": 25,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "2.5lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "8",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/8/Cucumber.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/8/conversions/Cucumber-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "596",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/595/Cucumber-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/595/conversions/Cucumber-1-thumbnail.jpg"
+              },
+              {
+                "id": "597",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/596/Cucumber-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/596/conversions/Cucumber-2-thumbnail.jpg"
+              },
+              {
+                "id": "598",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/597/Cucumber.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/597/conversions/Cucumber-thumbnail.jpg"
+              },
+              {
+                "id": "745",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/744/Cucumber_w6hlxr.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/744/conversions/Cucumber_w6hlxr-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:49:18.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 22,
+              "product_id": 8,
+              "order_quantity": "1",
+              "unit_price": 2.5,
+              "subtotal": 2.5,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T11:24:26.000000Z",
+              "updated_at": "2021-08-26T11:24:26.000000Z"
+            },
+            "variation_options": []
+          },
+          {
+            "id": 9,
+            "name": "Dates",
+            "slug": "dates",
+            "description": "Phoenix dactylifera, commonly known as date or date palm, is a flowering plant species in the palm family, Arecaceae, cultivated for its edible sweet fruit.",
+            "type_id": 1,
+            "price": 10,
+            "shop_id": 6,
+            "sale_price": 8,
+            "sku": "9",
+            "quantity": 50,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "1.5lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "10",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/10/Dates.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/10/conversions/Dates-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "599",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/598/Dates-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/598/conversions/Dates-1-thumbnail.jpg"
+              },
+              {
+                "id": "600",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/599/Dates-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/599/conversions/Dates-2-thumbnail.jpg"
+              },
+              {
+                "id": "601",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/600/Dates.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/600/conversions/Dates-thumbnail.jpg"
+              },
+              {
+                "id": "746",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/745/Dates_pq4oad.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/745/conversions/Dates_pq4oad-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:50:41.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 22,
+              "product_id": 9,
+              "order_quantity": "1",
+              "unit_price": 8,
+              "subtotal": 8,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T11:24:26.000000Z",
+              "updated_at": "2021-08-26T11:24:26.000000Z"
+            },
+            "variation_options": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "tracking_number": "GOfLjR2Up1Mq",
+    "customer_id": 2,
+    "customer_contact": "19365141641631",
+    "status": {
+      "id": 1,
+      "name": "Order Received",
+      "serial": 1,
+      "color": "#23b848",
+      "created_at": "2021-03-08T21:33:52.000000Z",
+      "updated_at": "2021-03-08T21:34:04.000000Z"
+    },
+    "amount": 21.6,
+    "sales_tax": 0.432,
+    "paid_total": 72.032,
+    "total": 72.032,
+    "coupon_id": null,
+    "parent_id": null,
+    "shop_id": null,
+    "discount": 0,
+    "payment_id": null,
+    "payment_gateway": "cod",
+    "shipping_address": {
+      "zip": "40391",
+      "city": "Winchester",
+      "state": "KY",
+      "country": "United States",
+      "street_address": "2148  Straford Park"
+    },
+    "billing_address": {
+      "zip": "99614",
+      "city": "Kipnuk",
+      "state": "AK",
+      "country": "United States",
+      "street_address": "2231 Kidd Avenue"
+    },
+    "logistics_provider": null,
+    "delivery_fee": 50,
+    "delivery_time": "11.00 AM - 2.00 PM",
+    "deleted_at": null,
+    "created_at": "2021-08-26T11:24:20.000000Z",
+    "updated_at": "2021-08-26T11:24:20.000000Z",
+    "customer": {
+      "id": 2,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2021-08-18T10:30:29.000000Z",
+      "updated_at": "2021-08-18T13:17:53.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    },
+    "products": [
+      {
+        "id": 6,
+        "name": "Clementines",
+        "slug": "clementines",
+        "description": "clementine is a tangor, a citrus fruit hybrid between a willowleaf mandarin orange and a sweet orange, named for its late 19th-century discoverer. The exterior is a deep orange colour with a smooth, glossy appearance.",
+        "type_id": 1,
+        "price": 3,
+        "shop_id": 6,
+        "sale_price": 2.5,
+        "sku": "6",
+        "quantity": 50,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "1lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "6",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/6/clementines.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/6/conversions/clementines-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "590",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/589/Clementines-1.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/589/conversions/Clementines-1-thumbnail.jpg"
+          },
+          {
+            "id": "591",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/590/Clementines.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/590/conversions/Clementines-thumbnail.jpg"
+          },
+          {
+            "id": "592",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/591/Clementines-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/591/conversions/Clementines-2-thumbnail.jpg"
+          },
+          {
+            "id": "743",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/742/clementines_h74qrp.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/742/conversions/clementines_h74qrp-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:45:18.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 19,
+          "product_id": 6,
+          "order_quantity": "1",
+          "unit_price": 2.5,
+          "subtotal": 2.5,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T11:24:20.000000Z",
+          "updated_at": "2021-08-26T11:24:20.000000Z"
+        },
+        "variation_options": []
+      },
+      {
+        "id": 7,
+        "name": "Sweet Corn",
+        "slug": "sweet-corn",
+        "description": "Maize, also known as corn, is a cereal grain first domesticated by indigenous peoples in southern Mexico about 10,000 years ago. The leafy stalk of the plant produces pollen inflorescences and separate ovuliferous inflorescences called ears that yield kernels or seeds, which are fruits.",
+        "type_id": 1,
+        "price": 5,
+        "shop_id": 6,
+        "sale_price": 4,
+        "sku": "7",
+        "quantity": 50,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "1lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "7",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/7/Corn.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/7/conversions/Corn-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "593",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/592/Sweet-Corn-1.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/592/conversions/Sweet-Corn-1-thumbnail.jpg"
+          },
+          {
+            "id": "594",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/593/Sweet-Corn-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/593/conversions/Sweet-Corn-2-thumbnail.jpg"
+          },
+          {
+            "id": "595",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/594/Sweet-Corn.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/594/conversions/Sweet-Corn-thumbnail.jpg"
+          },
+          {
+            "id": "744",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/743/Corn_dlrtbv.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/743/conversions/Corn_dlrtbv-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:48:20.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 19,
+          "product_id": 7,
+          "order_quantity": "1",
+          "unit_price": 4,
+          "subtotal": 4,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T11:24:20.000000Z",
+          "updated_at": "2021-08-26T11:24:20.000000Z"
+        },
+        "variation_options": []
+      },
+      {
+        "id": 1,
+        "name": "Apples",
+        "slug": "apples",
+        "description": "An apple is a sweet, edible fruit produced by an apple tree (Malus domestica). Apple trees are ... The skin of ripe apples is generally red, yellow, green, pink, or russetted, though many bi- or tri-colored cultivars may be found.",
+        "type_id": 1,
+        "price": 2,
+        "shop_id": 6,
+        "sale_price": 1.6,
+        "sku": "1",
+        "quantity": 18,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "1lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "1",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1/Apples.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1/conversions/Apples-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "573",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/572/apple-1.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/572/conversions/apple-1-thumbnail.jpg"
+          },
+          {
+            "id": "574",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/573/apple-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/573/conversions/apple-2-thumbnail.jpg"
+          },
+          {
+            "id": "575",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/574/apple.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/574/conversions/apple-thumbnail.jpg"
+          },
+          {
+            "id": "737",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/736/apple-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/736/conversions/apple-2-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:24:53.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 19,
+          "product_id": 1,
+          "order_quantity": "1",
+          "unit_price": 1.6,
+          "subtotal": 1.6,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T11:24:20.000000Z",
+          "updated_at": "2021-08-26T11:24:20.000000Z"
+        },
+        "variation_options": []
+      },
+      {
+        "id": 4,
+        "name": "Brussels Sprout",
+        "slug": "brussels-sprout",
+        "description": "The Brussels sprout is a member of the Gemmifera Group of cabbages, grown for its edible buds. The leaf vegetables are typically 1.5–4.0 cm in diameter and look like miniature cabbages. The Brussels sprout has long been popular in Brussels, Belgium, and may have gained its name there.",
+        "type_id": 1,
+        "price": 5,
+        "shop_id": 6,
+        "sale_price": 3,
+        "sku": "4",
+        "quantity": 17,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "1lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "4",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/4/BrusselsSprouts.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/4/conversions/BrusselsSprouts-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "582",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/581/Brussels-Sprout-1.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/581/conversions/Brussels-Sprout-1-thumbnail.jpg"
+          },
+          {
+            "id": "583",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/582/Brussels-Sprout-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/582/conversions/Brussels-Sprout-2-thumbnail.jpg"
+          },
+          {
+            "id": "584",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/583/Brussels-Sprout.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/583/conversions/Brussels-Sprout-thumbnail.jpg"
+          },
+          {
+            "id": "741",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/740/BrusselsSprouts_adwhet.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/740/conversions/BrusselsSprouts_adwhet-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:42:32.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 19,
+          "product_id": 4,
+          "order_quantity": "1",
+          "unit_price": 3,
+          "subtotal": 3,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T11:24:20.000000Z",
+          "updated_at": "2021-08-26T11:24:20.000000Z"
+        },
+        "variation_options": []
+      },
+      {
+        "id": 8,
+        "name": "Cucumber",
+        "slug": "cucumber",
+        "description": "Cucumber is a widely cultivated plant in the gourd family, Cucurbitaceae. It is a creeping vine that bears cucumiform fruits that are used as vegetables. There are three main varieties of cucumber: slicing, pickling, and seedless. Within these varieties, several cultivars have been created.",
+        "type_id": 1,
+        "price": 2.5,
+        "shop_id": 6,
+        "sale_price": null,
+        "sku": "8",
+        "quantity": 25,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "2.5lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "8",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/8/Cucumber.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/8/conversions/Cucumber-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "596",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/595/Cucumber-1.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/595/conversions/Cucumber-1-thumbnail.jpg"
+          },
+          {
+            "id": "597",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/596/Cucumber-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/596/conversions/Cucumber-2-thumbnail.jpg"
+          },
+          {
+            "id": "598",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/597/Cucumber.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/597/conversions/Cucumber-thumbnail.jpg"
+          },
+          {
+            "id": "745",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/744/Cucumber_w6hlxr.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/744/conversions/Cucumber_w6hlxr-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:49:18.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 19,
+          "product_id": 8,
+          "order_quantity": "1",
+          "unit_price": 2.5,
+          "subtotal": 2.5,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T11:24:20.000000Z",
+          "updated_at": "2021-08-26T11:24:20.000000Z"
+        },
+        "variation_options": []
+      },
+      {
+        "id": 9,
+        "name": "Dates",
+        "slug": "dates",
+        "description": "Phoenix dactylifera, commonly known as date or date palm, is a flowering plant species in the palm family, Arecaceae, cultivated for its edible sweet fruit.",
+        "type_id": 1,
+        "price": 10,
+        "shop_id": 6,
+        "sale_price": 8,
+        "sku": "9",
+        "quantity": 50,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "1.5lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "10",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/10/Dates.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/10/conversions/Dates-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "599",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/598/Dates-1.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/598/conversions/Dates-1-thumbnail.jpg"
+          },
+          {
+            "id": "600",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/599/Dates-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/599/conversions/Dates-2-thumbnail.jpg"
+          },
+          {
+            "id": "601",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/600/Dates.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/600/conversions/Dates-thumbnail.jpg"
+          },
+          {
+            "id": "746",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/745/Dates_pq4oad.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/745/conversions/Dates_pq4oad-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:50:41.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 19,
+          "product_id": 9,
+          "order_quantity": "1",
+          "unit_price": 8,
+          "subtotal": 8,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T11:24:20.000000Z",
+          "updated_at": "2021-08-26T11:24:20.000000Z"
+        },
+        "variation_options": []
+      }
+    ],
+    "children": [
+      {
+        "id": 20,
+        "tracking_number": "u12Vex9lJnHf",
+        "customer_id": 2,
+        "customer_contact": "19365141641631",
+        "status": {
+          "id": 1,
+          "name": "Order Received",
+          "serial": 1,
+          "color": "#23b848",
+          "created_at": "2021-03-08T21:33:52.000000Z",
+          "updated_at": "2021-03-08T21:34:04.000000Z"
+        },
+        "amount": 21.6,
+        "sales_tax": 0,
+        "paid_total": 21.6,
+        "total": 21.6,
+        "coupon_id": null,
+        "parent_id": 19,
+        "shop_id": 6,
+        "discount": 0,
+        "payment_id": null,
+        "payment_gateway": "cod",
+        "shipping_address": {
+          "zip": "40391",
+          "city": "Winchester",
+          "state": "KY",
+          "country": "United States",
+          "street_address": "2148  Straford Park"
+        },
+        "billing_address": {
+          "zip": "40391",
+          "city": "Winchester",
+          "state": "KY",
+          "country": "United States",
+          "street_address": "2148  Straford Park"
+        },
+        "logistics_provider": null,
+        "delivery_fee": 0,
+        "delivery_time": "11.00 AM - 2.00 PM",
+        "deleted_at": null,
+        "created_at": "2021-08-26T11:24:20.000000Z",
+        "updated_at": "2021-08-26T11:24:20.000000Z",
+        "customer": {
+          "id": 2,
+          "name": "Customer",
+          "email": "customer@demo.com",
+          "email_verified_at": null,
+          "created_at": "2021-08-18T10:30:29.000000Z",
+          "updated_at": "2021-08-18T13:17:53.000000Z",
+          "is_active": 1,
+          "shop_id": null
+        },
+        "products": [
+          {
+            "id": 6,
+            "name": "Clementines",
+            "slug": "clementines",
+            "description": "clementine is a tangor, a citrus fruit hybrid between a willowleaf mandarin orange and a sweet orange, named for its late 19th-century discoverer. The exterior is a deep orange colour with a smooth, glossy appearance.",
+            "type_id": 1,
+            "price": 3,
+            "shop_id": 6,
+            "sale_price": 2.5,
+            "sku": "6",
+            "quantity": 50,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "1lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "6",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/6/clementines.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/6/conversions/clementines-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "590",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/589/Clementines-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/589/conversions/Clementines-1-thumbnail.jpg"
+              },
+              {
+                "id": "591",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/590/Clementines.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/590/conversions/Clementines-thumbnail.jpg"
+              },
+              {
+                "id": "592",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/591/Clementines-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/591/conversions/Clementines-2-thumbnail.jpg"
+              },
+              {
+                "id": "743",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/742/clementines_h74qrp.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/742/conversions/clementines_h74qrp-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:45:18.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 20,
+              "product_id": 6,
+              "order_quantity": "1",
+              "unit_price": 2.5,
+              "subtotal": 2.5,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T11:24:20.000000Z",
+              "updated_at": "2021-08-26T11:24:20.000000Z"
+            },
+            "variation_options": []
+          },
+          {
+            "id": 7,
+            "name": "Sweet Corn",
+            "slug": "sweet-corn",
+            "description": "Maize, also known as corn, is a cereal grain first domesticated by indigenous peoples in southern Mexico about 10,000 years ago. The leafy stalk of the plant produces pollen inflorescences and separate ovuliferous inflorescences called ears that yield kernels or seeds, which are fruits.",
+            "type_id": 1,
+            "price": 5,
+            "shop_id": 6,
+            "sale_price": 4,
+            "sku": "7",
+            "quantity": 50,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "1lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "7",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/7/Corn.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/7/conversions/Corn-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "593",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/592/Sweet-Corn-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/592/conversions/Sweet-Corn-1-thumbnail.jpg"
+              },
+              {
+                "id": "594",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/593/Sweet-Corn-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/593/conversions/Sweet-Corn-2-thumbnail.jpg"
+              },
+              {
+                "id": "595",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/594/Sweet-Corn.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/594/conversions/Sweet-Corn-thumbnail.jpg"
+              },
+              {
+                "id": "744",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/743/Corn_dlrtbv.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/743/conversions/Corn_dlrtbv-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:48:20.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 20,
+              "product_id": 7,
+              "order_quantity": "1",
+              "unit_price": 4,
+              "subtotal": 4,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T11:24:20.000000Z",
+              "updated_at": "2021-08-26T11:24:20.000000Z"
+            },
+            "variation_options": []
+          },
+          {
+            "id": 1,
+            "name": "Apples",
+            "slug": "apples",
+            "description": "An apple is a sweet, edible fruit produced by an apple tree (Malus domestica). Apple trees are ... The skin of ripe apples is generally red, yellow, green, pink, or russetted, though many bi- or tri-colored cultivars may be found.",
+            "type_id": 1,
+            "price": 2,
+            "shop_id": 6,
+            "sale_price": 1.6,
+            "sku": "1",
+            "quantity": 18,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "1lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "1",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1/Apples.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1/conversions/Apples-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "573",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/572/apple-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/572/conversions/apple-1-thumbnail.jpg"
+              },
+              {
+                "id": "574",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/573/apple-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/573/conversions/apple-2-thumbnail.jpg"
+              },
+              {
+                "id": "575",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/574/apple.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/574/conversions/apple-thumbnail.jpg"
+              },
+              {
+                "id": "737",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/736/apple-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/736/conversions/apple-2-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:24:53.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 20,
+              "product_id": 1,
+              "order_quantity": "1",
+              "unit_price": 1.6,
+              "subtotal": 1.6,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T11:24:20.000000Z",
+              "updated_at": "2021-08-26T11:24:20.000000Z"
+            },
+            "variation_options": []
+          },
+          {
+            "id": 4,
+            "name": "Brussels Sprout",
+            "slug": "brussels-sprout",
+            "description": "The Brussels sprout is a member of the Gemmifera Group of cabbages, grown for its edible buds. The leaf vegetables are typically 1.5–4.0 cm in diameter and look like miniature cabbages. The Brussels sprout has long been popular in Brussels, Belgium, and may have gained its name there.",
+            "type_id": 1,
+            "price": 5,
+            "shop_id": 6,
+            "sale_price": 3,
+            "sku": "4",
+            "quantity": 17,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "1lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "4",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/4/BrusselsSprouts.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/4/conversions/BrusselsSprouts-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "582",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/581/Brussels-Sprout-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/581/conversions/Brussels-Sprout-1-thumbnail.jpg"
+              },
+              {
+                "id": "583",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/582/Brussels-Sprout-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/582/conversions/Brussels-Sprout-2-thumbnail.jpg"
+              },
+              {
+                "id": "584",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/583/Brussels-Sprout.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/583/conversions/Brussels-Sprout-thumbnail.jpg"
+              },
+              {
+                "id": "741",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/740/BrusselsSprouts_adwhet.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/740/conversions/BrusselsSprouts_adwhet-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:42:32.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 20,
+              "product_id": 4,
+              "order_quantity": "1",
+              "unit_price": 3,
+              "subtotal": 3,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T11:24:20.000000Z",
+              "updated_at": "2021-08-26T11:24:20.000000Z"
+            },
+            "variation_options": []
+          },
+          {
+            "id": 8,
+            "name": "Cucumber",
+            "slug": "cucumber",
+            "description": "Cucumber is a widely cultivated plant in the gourd family, Cucurbitaceae. It is a creeping vine that bears cucumiform fruits that are used as vegetables. There are three main varieties of cucumber: slicing, pickling, and seedless. Within these varieties, several cultivars have been created.",
+            "type_id": 1,
+            "price": 2.5,
+            "shop_id": 6,
+            "sale_price": null,
+            "sku": "8",
+            "quantity": 25,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "2.5lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "8",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/8/Cucumber.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/8/conversions/Cucumber-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "596",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/595/Cucumber-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/595/conversions/Cucumber-1-thumbnail.jpg"
+              },
+              {
+                "id": "597",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/596/Cucumber-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/596/conversions/Cucumber-2-thumbnail.jpg"
+              },
+              {
+                "id": "598",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/597/Cucumber.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/597/conversions/Cucumber-thumbnail.jpg"
+              },
+              {
+                "id": "745",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/744/Cucumber_w6hlxr.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/744/conversions/Cucumber_w6hlxr-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:49:18.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 20,
+              "product_id": 8,
+              "order_quantity": "1",
+              "unit_price": 2.5,
+              "subtotal": 2.5,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T11:24:20.000000Z",
+              "updated_at": "2021-08-26T11:24:20.000000Z"
+            },
+            "variation_options": []
+          },
+          {
+            "id": 9,
+            "name": "Dates",
+            "slug": "dates",
+            "description": "Phoenix dactylifera, commonly known as date or date palm, is a flowering plant species in the palm family, Arecaceae, cultivated for its edible sweet fruit.",
+            "type_id": 1,
+            "price": 10,
+            "shop_id": 6,
+            "sale_price": 8,
+            "sku": "9",
+            "quantity": 50,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "1.5lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "10",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/10/Dates.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/10/conversions/Dates-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "599",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/598/Dates-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/598/conversions/Dates-1-thumbnail.jpg"
+              },
+              {
+                "id": "600",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/599/Dates-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/599/conversions/Dates-2-thumbnail.jpg"
+              },
+              {
+                "id": "601",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/600/Dates.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/600/conversions/Dates-thumbnail.jpg"
+              },
+              {
+                "id": "746",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/745/Dates_pq4oad.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/745/conversions/Dates_pq4oad-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:50:41.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 20,
+              "product_id": 9,
+              "order_quantity": "1",
+              "unit_price": 8,
+              "subtotal": 8,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T11:24:20.000000Z",
+              "updated_at": "2021-08-26T11:24:20.000000Z"
+            },
+            "variation_options": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "tracking_number": "NkLwcRYZnvdL",
+    "customer_id": 2,
+    "customer_contact": "19365141641631",
+    "status": {
+      "id": 1,
+      "name": "Order Received",
+      "serial": 1,
+      "color": "#23b848",
+      "created_at": "2021-03-08T21:33:52.000000Z",
+      "updated_at": "2021-03-08T21:34:04.000000Z"
+    },
+    "amount": 3,
+    "sales_tax": 0.06,
+    "paid_total": 53.06,
+    "total": 53.06,
+    "coupon_id": null,
+    "parent_id": null,
+    "shop_id": null,
+    "discount": 0,
+    "payment_id": null,
+    "payment_gateway": "cod",
+    "shipping_address": {
+      "zip": "40391",
+      "city": "Winchester",
+      "state": "KY",
+      "country": "United States",
+      "street_address": "2148  Straford Park"
+    },
+    "billing_address": {
+      "zip": "99614",
+      "city": "Kipnuk",
+      "state": "AK",
+      "country": "United States",
+      "street_address": "2231 Kidd Avenue"
+    },
+    "logistics_provider": null,
+    "delivery_fee": 50,
+    "delivery_time": "Express Delivery",
+    "deleted_at": null,
+    "created_at": "2021-08-26T11:10:33.000000Z",
+    "updated_at": "2021-08-26T11:10:33.000000Z",
+    "customer": {
+      "id": 2,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2021-08-18T10:30:29.000000Z",
+      "updated_at": "2021-08-18T13:17:53.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    },
+    "products": [
+      {
+        "id": 3,
+        "name": "Blueberries",
+        "slug": "blueberries",
+        "description": "Blueberries are perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries. Commercial blueberries—both wild and cultivated —are all native to North America.",
+        "type_id": 1,
+        "price": 3,
+        "shop_id": 6,
+        "sale_price": null,
+        "sku": "3",
+        "quantity": 30,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "1lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "3",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/3/blueberries.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/3/conversions/blueberries-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "580",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/579/Bluberries-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/579/conversions/Bluberries-2-thumbnail.jpg"
+          },
+          {
+            "id": "581",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/580/Bluberries.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/580/conversions/Bluberries-thumbnail.jpg"
+          },
+          {
+            "id": "740",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/739/blueberries_relyfn.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/739/conversions/blueberries_relyfn-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:40:00.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 17,
+          "product_id": 3,
+          "order_quantity": "1",
+          "unit_price": 3,
+          "subtotal": 3,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T11:10:33.000000Z",
+          "updated_at": "2021-08-26T11:10:33.000000Z"
+        },
+        "variation_options": []
+      }
+    ],
+    "children": [
+      {
+        "id": 18,
+        "tracking_number": "nJVN0yIs1B6D",
+        "customer_id": 2,
+        "customer_contact": "19365141641631",
+        "status": {
+          "id": 1,
+          "name": "Order Received",
+          "serial": 1,
+          "color": "#23b848",
+          "created_at": "2021-03-08T21:33:52.000000Z",
+          "updated_at": "2021-03-08T21:34:04.000000Z"
+        },
+        "amount": 3,
+        "sales_tax": 0,
+        "paid_total": 3,
+        "total": 3,
+        "coupon_id": null,
+        "parent_id": 17,
+        "shop_id": 6,
+        "discount": 0,
+        "payment_id": null,
+        "payment_gateway": "cod",
+        "shipping_address": {
+          "zip": "40391",
+          "city": "Winchester",
+          "state": "KY",
+          "country": "United States",
+          "street_address": "2148  Straford Park"
+        },
+        "billing_address": {
+          "zip": "40391",
+          "city": "Winchester",
+          "state": "KY",
+          "country": "United States",
+          "street_address": "2148  Straford Park"
+        },
+        "logistics_provider": null,
+        "delivery_fee": 0,
+        "delivery_time": "Express Delivery",
+        "deleted_at": null,
+        "created_at": "2021-08-26T11:10:33.000000Z",
+        "updated_at": "2021-08-26T11:10:33.000000Z",
+        "customer": {
+          "id": 2,
+          "name": "Customer",
+          "email": "customer@demo.com",
+          "email_verified_at": null,
+          "created_at": "2021-08-18T10:30:29.000000Z",
+          "updated_at": "2021-08-18T13:17:53.000000Z",
+          "is_active": 1,
+          "shop_id": null
+        },
+        "products": [
+          {
+            "id": 3,
+            "name": "Blueberries",
+            "slug": "blueberries",
+            "description": "Blueberries are perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries. Commercial blueberries—both wild and cultivated —are all native to North America.",
+            "type_id": 1,
+            "price": 3,
+            "shop_id": 6,
+            "sale_price": null,
+            "sku": "3",
+            "quantity": 30,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "1lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "3",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/3/blueberries.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/3/conversions/blueberries-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "580",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/579/Bluberries-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/579/conversions/Bluberries-2-thumbnail.jpg"
+              },
+              {
+                "id": "581",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/580/Bluberries.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/580/conversions/Bluberries-thumbnail.jpg"
+              },
+              {
+                "id": "740",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/739/blueberries_relyfn.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/739/conversions/blueberries_relyfn-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:40:00.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 18,
+              "product_id": 3,
+              "order_quantity": "1",
+              "unit_price": 3,
+              "subtotal": 3,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T11:10:33.000000Z",
+              "updated_at": "2021-08-26T11:10:33.000000Z"
+            },
+            "variation_options": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "tracking_number": "SRuB9IoVLuCw",
+    "customer_id": 2,
+    "customer_contact": "19365141641631",
+    "status": {
+      "id": 1,
+      "name": "Order Received",
+      "serial": 1,
+      "color": "#23b848",
+      "created_at": "2021-03-08T21:33:52.000000Z",
+      "updated_at": "2021-03-08T21:34:04.000000Z"
+    },
+    "amount": 109.6,
+    "sales_tax": 2.192,
+    "paid_total": 161.792,
+    "total": 161.792,
+    "coupon_id": null,
+    "parent_id": null,
+    "shop_id": null,
+    "discount": 0,
+    "payment_id": null,
+    "payment_gateway": "cod",
+    "shipping_address": {
+      "zip": "40391",
+      "city": "Winchester",
+      "state": "KY",
+      "country": "United States",
+      "street_address": "2148  Straford Park"
+    },
+    "billing_address": {
+      "zip": "99614",
+      "city": "Kipnuk",
+      "state": "AK",
+      "country": "United States",
+      "street_address": "2231 Kidd Avenue"
+    },
+    "logistics_provider": null,
+    "delivery_fee": 50,
+    "delivery_time": "Morning",
+    "deleted_at": null,
+    "created_at": "2021-08-26T09:18:43.000000Z",
+    "updated_at": "2021-08-26T09:18:43.000000Z",
+    "customer": {
+      "id": 2,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2021-08-18T10:30:29.000000Z",
+      "updated_at": "2021-08-18T13:17:53.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    },
+    "products": [
+      {
+        "id": 2,
+        "name": "Baby Spinach",
+        "slug": "baby-spinach",
+        "description": "Spinach (Spinacia oleracea) is a leafy green flowering plant native to central and western Asia. It is of the order Caryophyllales, family Amaranthaceae, subfamily Chenopodioideae. Its leaves are a common edible vegetable consumed either fresh.",
+        "type_id": 1,
+        "price": 0.6,
+        "shop_id": 6,
+        "sale_price": null,
+        "sku": "2",
+        "quantity": 10,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "2lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "2",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/2/BabySpinach.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/2/conversions/BabySpinach-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "576",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/575/baby-spinach-1.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/575/conversions/baby-spinach-1-thumbnail.jpg"
+          },
+          {
+            "id": "577",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/576/baby-spinach-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/576/conversions/baby-spinach-2-thumbnail.jpg"
+          },
+          {
+            "id": "578",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/577/baby-spinach.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/577/conversions/baby-spinach-thumbnail.jpg"
+          },
+          {
+            "id": "738",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/737/BabySpinach_xronqz.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/737/conversions/BabySpinach_xronqz-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:26:13.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 14,
+          "product_id": 2,
+          "order_quantity": "1",
+          "unit_price": 0.6,
+          "subtotal": 0.6,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T09:18:43.000000Z",
+          "updated_at": "2021-08-26T09:18:43.000000Z"
+        },
+        "variation_options": []
+      },
+      {
+        "id": 3,
+        "name": "Blueberries",
+        "slug": "blueberries",
+        "description": "Blueberries are perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries. Commercial blueberries—both wild and cultivated —are all native to North America.",
+        "type_id": 1,
+        "price": 3,
+        "shop_id": 6,
+        "sale_price": null,
+        "sku": "3",
+        "quantity": 30,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "1lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "3",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/3/blueberries.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/3/conversions/blueberries-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "580",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/579/Bluberries-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/579/conversions/Bluberries-2-thumbnail.jpg"
+          },
+          {
+            "id": "581",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/580/Bluberries.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/580/conversions/Bluberries-thumbnail.jpg"
+          },
+          {
+            "id": "740",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/739/blueberries_relyfn.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/739/conversions/blueberries_relyfn-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:40:00.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 14,
+          "product_id": 3,
+          "order_quantity": "3",
+          "unit_price": 3,
+          "subtotal": 9,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T09:18:43.000000Z",
+          "updated_at": "2021-08-26T09:18:43.000000Z"
+        },
+        "variation_options": []
+      },
+      {
+        "id": 113,
+        "name": "Forever 21 Solid Bodycon Midi Dress",
+        "slug": "forever-21-solid-bodycon-midi-dress",
+        "description": "Grey solid woven bodycon dress, has a round neck, sleeveless, straight hem",
+        "type_id": 5,
+        "price": null,
+        "shop_id": 2,
+        "sale_price": null,
+        "sku": "1203",
+        "quantity": 3000,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "variable",
+        "unit": "1 pc(s)",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "115",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/115/FOREVER_21.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/115/conversions/FOREVER_21-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "672",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/671/Striped-Dress.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/671/conversions/Striped-Dress-thumbnail.jpg"
+          },
+          {
+            "id": "768",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/767/FOREVER_21.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/767/conversions/FOREVER_21-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-09T18:01:23.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": 120,
+        "min_price": 100,
+        "pivot": {
+          "order_id": 14,
+          "product_id": 113,
+          "order_quantity": "1",
+          "unit_price": 100,
+          "subtotal": 100,
+          "variation_option_id": 262,
+          "created_at": "2021-08-26T09:18:43.000000Z",
+          "updated_at": "2021-08-26T09:18:43.000000Z"
+        },
+        "variation_options": [
+          {
+            "id": 261,
+            "title": "Blue/M",
+            "price": 120,
+            "sale_price": 100,
+            "quantity": "500",
+            "is_disable": 0,
+            "sku": "200130",
+            "options": [
+              {
+                "name": "Color",
+                "value": "Blue"
+              },
+              {
+                "name": "Size",
+                "value": "M"
+              }
+            ],
+            "product_id": 113,
+            "created_at": "2021-05-10T09:14:04.000000Z",
+            "updated_at": "2021-05-10T09:14:04.000000Z"
+          },
+          {
+            "id": 262,
+            "title": "Blue/L",
+            "price": 120,
+            "sale_price": 100,
+            "quantity": "500",
+            "is_disable": 0,
+            "sku": "200131",
+            "options": [
+              {
+                "name": "Color",
+                "value": "Blue"
+              },
+              {
+                "name": "Size",
+                "value": "L"
+              }
+            ],
+            "product_id": 113,
+            "created_at": "2021-05-10T09:14:04.000000Z",
+            "updated_at": "2021-05-10T09:14:04.000000Z"
+          },
+          {
+            "id": 263,
+            "title": "Blue/XL",
+            "price": 120,
+            "sale_price": 100,
+            "quantity": "500",
+            "is_disable": 0,
+            "sku": "200132",
+            "options": [
+              {
+                "name": "Color",
+                "value": "Blue"
+              },
+              {
+                "name": "Size",
+                "value": "XL"
+              }
+            ],
+            "product_id": 113,
+            "created_at": "2021-05-10T09:14:04.000000Z",
+            "updated_at": "2021-05-10T09:14:04.000000Z"
+          },
+          {
+            "id": 264,
+            "title": "White/M",
+            "price": 120,
+            "sale_price": null,
+            "quantity": "500",
+            "is_disable": 0,
+            "sku": "200135",
+            "options": [
+              {
+                "name": "Color",
+                "value": "White"
+              },
+              {
+                "name": "Size",
+                "value": "M"
+              }
+            ],
+            "product_id": 113,
+            "created_at": "2021-05-10T09:14:04.000000Z",
+            "updated_at": "2021-05-10T09:14:04.000000Z"
+          },
+          {
+            "id": 265,
+            "title": "White/L",
+            "price": 120,
+            "sale_price": 100,
+            "quantity": "500",
+            "is_disable": 0,
+            "sku": "200136",
+            "options": [
+              {
+                "name": "Color",
+                "value": "White"
+              },
+              {
+                "name": "Size",
+                "value": "L"
+              }
+            ],
+            "product_id": 113,
+            "created_at": "2021-05-10T09:14:04.000000Z",
+            "updated_at": "2021-05-10T09:14:04.000000Z"
+          },
+          {
+            "id": 266,
+            "title": "White/XL",
+            "price": 120,
+            "sale_price": 100,
+            "quantity": "500",
+            "is_disable": 0,
+            "sku": "200138",
+            "options": [
+              {
+                "name": "Color",
+                "value": "White"
+              },
+              {
+                "name": "Size",
+                "value": "XL"
+              }
+            ],
+            "product_id": 113,
+            "created_at": "2021-05-10T09:14:04.000000Z",
+            "updated_at": "2021-05-10T09:14:04.000000Z"
+          }
+        ]
+      }
+    ],
+    "children": [
+      {
+        "id": 15,
+        "tracking_number": "wad0iYS1LZYC",
+        "customer_id": 2,
+        "customer_contact": "19365141641631",
+        "status": {
+          "id": 1,
+          "name": "Order Received",
+          "serial": 1,
+          "color": "#23b848",
+          "created_at": "2021-03-08T21:33:52.000000Z",
+          "updated_at": "2021-03-08T21:34:04.000000Z"
+        },
+        "amount": 9.6,
+        "sales_tax": 0,
+        "paid_total": 9.6,
+        "total": 9.6,
+        "coupon_id": null,
+        "parent_id": 14,
+        "shop_id": 6,
+        "discount": 0,
+        "payment_id": null,
+        "payment_gateway": "cod",
+        "shipping_address": {
+          "zip": "40391",
+          "city": "Winchester",
+          "state": "KY",
+          "country": "United States",
+          "street_address": "2148  Straford Park"
+        },
+        "billing_address": {
+          "zip": "40391",
+          "city": "Winchester",
+          "state": "KY",
+          "country": "United States",
+          "street_address": "2148  Straford Park"
+        },
+        "logistics_provider": null,
+        "delivery_fee": 0,
+        "delivery_time": "Morning",
+        "deleted_at": null,
+        "created_at": "2021-08-26T09:18:43.000000Z",
+        "updated_at": "2021-08-26T09:18:43.000000Z",
+        "customer": {
+          "id": 2,
+          "name": "Customer",
+          "email": "customer@demo.com",
+          "email_verified_at": null,
+          "created_at": "2021-08-18T10:30:29.000000Z",
+          "updated_at": "2021-08-18T13:17:53.000000Z",
+          "is_active": 1,
+          "shop_id": null
+        },
+        "products": [
+          {
+            "id": 2,
+            "name": "Baby Spinach",
+            "slug": "baby-spinach",
+            "description": "Spinach (Spinacia oleracea) is a leafy green flowering plant native to central and western Asia. It is of the order Caryophyllales, family Amaranthaceae, subfamily Chenopodioideae. Its leaves are a common edible vegetable consumed either fresh.",
+            "type_id": 1,
+            "price": 0.6,
+            "shop_id": 6,
+            "sale_price": null,
+            "sku": "2",
+            "quantity": 10,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "2lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "2",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/2/BabySpinach.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/2/conversions/BabySpinach-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "576",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/575/baby-spinach-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/575/conversions/baby-spinach-1-thumbnail.jpg"
+              },
+              {
+                "id": "577",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/576/baby-spinach-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/576/conversions/baby-spinach-2-thumbnail.jpg"
+              },
+              {
+                "id": "578",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/577/baby-spinach.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/577/conversions/baby-spinach-thumbnail.jpg"
+              },
+              {
+                "id": "738",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/737/BabySpinach_xronqz.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/737/conversions/BabySpinach_xronqz-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:26:13.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 15,
+              "product_id": 2,
+              "order_quantity": "1",
+              "unit_price": 0.6,
+              "subtotal": 0.6,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T09:18:43.000000Z",
+              "updated_at": "2021-08-26T09:18:43.000000Z"
+            },
+            "variation_options": []
+          },
+          {
+            "id": 3,
+            "name": "Blueberries",
+            "slug": "blueberries",
+            "description": "Blueberries are perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries. Commercial blueberries—both wild and cultivated —are all native to North America.",
+            "type_id": 1,
+            "price": 3,
+            "shop_id": 6,
+            "sale_price": null,
+            "sku": "3",
+            "quantity": 30,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "1lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "3",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/3/blueberries.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/3/conversions/blueberries-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "580",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/579/Bluberries-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/579/conversions/Bluberries-2-thumbnail.jpg"
+              },
+              {
+                "id": "581",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/580/Bluberries.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/580/conversions/Bluberries-thumbnail.jpg"
+              },
+              {
+                "id": "740",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/739/blueberries_relyfn.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/739/conversions/blueberries_relyfn-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:40:00.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 15,
+              "product_id": 3,
+              "order_quantity": "3",
+              "unit_price": 3,
+              "subtotal": 9,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T09:18:43.000000Z",
+              "updated_at": "2021-08-26T09:18:43.000000Z"
+            },
+            "variation_options": []
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "tracking_number": "lVvckRP5Itl2",
+        "customer_id": 2,
+        "customer_contact": "19365141641631",
+        "status": {
+          "id": 1,
+          "name": "Order Received",
+          "serial": 1,
+          "color": "#23b848",
+          "created_at": "2021-03-08T21:33:52.000000Z",
+          "updated_at": "2021-03-08T21:34:04.000000Z"
+        },
+        "amount": 100,
+        "sales_tax": 0,
+        "paid_total": 100,
+        "total": 100,
+        "coupon_id": null,
+        "parent_id": 14,
+        "shop_id": 2,
+        "discount": 0,
+        "payment_id": null,
+        "payment_gateway": "cod",
+        "shipping_address": {
+          "zip": "40391",
+          "city": "Winchester",
+          "state": "KY",
+          "country": "United States",
+          "street_address": "2148  Straford Park"
+        },
+        "billing_address": {
+          "zip": "40391",
+          "city": "Winchester",
+          "state": "KY",
+          "country": "United States",
+          "street_address": "2148  Straford Park"
+        },
+        "logistics_provider": null,
+        "delivery_fee": 0,
+        "delivery_time": "Morning",
+        "deleted_at": null,
+        "created_at": "2021-08-26T09:18:43.000000Z",
+        "updated_at": "2021-08-26T09:18:43.000000Z",
+        "customer": {
+          "id": 2,
+          "name": "Customer",
+          "email": "customer@demo.com",
+          "email_verified_at": null,
+          "created_at": "2021-08-18T10:30:29.000000Z",
+          "updated_at": "2021-08-18T13:17:53.000000Z",
+          "is_active": 1,
+          "shop_id": null
+        },
+        "products": [
+          {
+            "id": 113,
+            "name": "Forever 21 Solid Bodycon Midi Dress",
+            "slug": "forever-21-solid-bodycon-midi-dress",
+            "description": "Grey solid woven bodycon dress, has a round neck, sleeveless, straight hem",
+            "type_id": 5,
+            "price": null,
+            "shop_id": 2,
+            "sale_price": null,
+            "sku": "1203",
+            "quantity": 3000,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "variable",
+            "unit": "1 pc(s)",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "115",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/115/FOREVER_21.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/115/conversions/FOREVER_21-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "672",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/671/Striped-Dress.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/671/conversions/Striped-Dress-thumbnail.jpg"
+              },
+              {
+                "id": "768",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/767/FOREVER_21.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/767/conversions/FOREVER_21-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-09T18:01:23.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": 120,
+            "min_price": 100,
+            "pivot": {
+              "order_id": 16,
+              "product_id": 113,
+              "order_quantity": "1",
+              "unit_price": 100,
+              "subtotal": 100,
+              "variation_option_id": 262,
+              "created_at": "2021-08-26T09:18:43.000000Z",
+              "updated_at": "2021-08-26T09:18:43.000000Z"
+            },
+            "variation_options": [
+              {
+                "id": 261,
+                "title": "Blue/M",
+                "price": 120,
+                "sale_price": 100,
+                "quantity": "500",
+                "is_disable": 0,
+                "sku": "200130",
+                "options": [
+                  {
+                    "name": "Color",
+                    "value": "Blue"
+                  },
+                  {
+                    "name": "Size",
+                    "value": "M"
+                  }
+                ],
+                "product_id": 113,
+                "created_at": "2021-05-10T09:14:04.000000Z",
+                "updated_at": "2021-05-10T09:14:04.000000Z"
+              },
+              {
+                "id": 262,
+                "title": "Blue/L",
+                "price": 120,
+                "sale_price": 100,
+                "quantity": "500",
+                "is_disable": 0,
+                "sku": "200131",
+                "options": [
+                  {
+                    "name": "Color",
+                    "value": "Blue"
+                  },
+                  {
+                    "name": "Size",
+                    "value": "L"
+                  }
+                ],
+                "product_id": 113,
+                "created_at": "2021-05-10T09:14:04.000000Z",
+                "updated_at": "2021-05-10T09:14:04.000000Z"
+              },
+              {
+                "id": 263,
+                "title": "Blue/XL",
+                "price": 120,
+                "sale_price": 100,
+                "quantity": "500",
+                "is_disable": 0,
+                "sku": "200132",
+                "options": [
+                  {
+                    "name": "Color",
+                    "value": "Blue"
+                  },
+                  {
+                    "name": "Size",
+                    "value": "XL"
+                  }
+                ],
+                "product_id": 113,
+                "created_at": "2021-05-10T09:14:04.000000Z",
+                "updated_at": "2021-05-10T09:14:04.000000Z"
+              },
+              {
+                "id": 264,
+                "title": "White/M",
+                "price": 120,
+                "sale_price": null,
+                "quantity": "500",
+                "is_disable": 0,
+                "sku": "200135",
+                "options": [
+                  {
+                    "name": "Color",
+                    "value": "White"
+                  },
+                  {
+                    "name": "Size",
+                    "value": "M"
+                  }
+                ],
+                "product_id": 113,
+                "created_at": "2021-05-10T09:14:04.000000Z",
+                "updated_at": "2021-05-10T09:14:04.000000Z"
+              },
+              {
+                "id": 265,
+                "title": "White/L",
+                "price": 120,
+                "sale_price": 100,
+                "quantity": "500",
+                "is_disable": 0,
+                "sku": "200136",
+                "options": [
+                  {
+                    "name": "Color",
+                    "value": "White"
+                  },
+                  {
+                    "name": "Size",
+                    "value": "L"
+                  }
+                ],
+                "product_id": 113,
+                "created_at": "2021-05-10T09:14:04.000000Z",
+                "updated_at": "2021-05-10T09:14:04.000000Z"
+              },
+              {
+                "id": 266,
+                "title": "White/XL",
+                "price": 120,
+                "sale_price": 100,
+                "quantity": "500",
+                "is_disable": 0,
+                "sku": "200138",
+                "options": [
+                  {
+                    "name": "Color",
+                    "value": "White"
+                  },
+                  {
+                    "name": "Size",
+                    "value": "XL"
+                  }
+                ],
+                "product_id": 113,
+                "created_at": "2021-05-10T09:14:04.000000Z",
+                "updated_at": "2021-05-10T09:14:04.000000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "tracking_number": "uFezrjgESzjm",
+    "customer_id": 2,
+    "customer_contact": "19365141641631",
+    "status": {
+      "id": 1,
+      "name": "Order Received",
+      "serial": 1,
+      "color": "#23b848",
+      "created_at": "2021-03-08T21:33:52.000000Z",
+      "updated_at": "2021-03-08T21:34:04.000000Z"
+    },
+    "amount": 109.6,
+    "sales_tax": 2.192,
+    "paid_total": 161.792,
+    "total": 161.792,
+    "coupon_id": null,
+    "parent_id": null,
+    "shop_id": null,
+    "discount": 0,
+    "payment_id": null,
+    "payment_gateway": "cod",
+    "shipping_address": {
+      "zip": "40391",
+      "city": "Winchester",
+      "state": "KY",
+      "country": "United States",
+      "street_address": "2148  Straford Park"
+    },
+    "billing_address": {
+      "zip": "99614",
+      "city": "Kipnuk",
+      "state": "AK",
+      "country": "United States",
+      "street_address": "2231 Kidd Avenue"
+    },
+    "logistics_provider": null,
+    "delivery_fee": 50,
+    "delivery_time": "Morning",
+    "deleted_at": null,
+    "created_at": "2021-08-26T09:18:40.000000Z",
+    "updated_at": "2021-08-26T09:18:40.000000Z",
+    "customer": {
+      "id": 2,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2021-08-18T10:30:29.000000Z",
+      "updated_at": "2021-08-18T13:17:53.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    },
+    "products": [
+      {
+        "id": 2,
+        "name": "Baby Spinach",
+        "slug": "baby-spinach",
+        "description": "Spinach (Spinacia oleracea) is a leafy green flowering plant native to central and western Asia. It is of the order Caryophyllales, family Amaranthaceae, subfamily Chenopodioideae. Its leaves are a common edible vegetable consumed either fresh.",
+        "type_id": 1,
+        "price": 0.6,
+        "shop_id": 6,
+        "sale_price": null,
+        "sku": "2",
+        "quantity": 10,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "2lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "2",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/2/BabySpinach.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/2/conversions/BabySpinach-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "576",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/575/baby-spinach-1.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/575/conversions/baby-spinach-1-thumbnail.jpg"
+          },
+          {
+            "id": "577",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/576/baby-spinach-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/576/conversions/baby-spinach-2-thumbnail.jpg"
+          },
+          {
+            "id": "578",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/577/baby-spinach.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/577/conversions/baby-spinach-thumbnail.jpg"
+          },
+          {
+            "id": "738",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/737/BabySpinach_xronqz.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/737/conversions/BabySpinach_xronqz-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:26:13.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 11,
+          "product_id": 2,
+          "order_quantity": "1",
+          "unit_price": 0.6,
+          "subtotal": 0.6,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T09:18:40.000000Z",
+          "updated_at": "2021-08-26T09:18:40.000000Z"
+        },
+        "variation_options": []
+      },
+      {
+        "id": 3,
+        "name": "Blueberries",
+        "slug": "blueberries",
+        "description": "Blueberries are perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries. Commercial blueberries—both wild and cultivated —are all native to North America.",
+        "type_id": 1,
+        "price": 3,
+        "shop_id": 6,
+        "sale_price": null,
+        "sku": "3",
+        "quantity": 30,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "simple",
+        "unit": "1lb",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "3",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/3/blueberries.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/3/conversions/blueberries-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "580",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/579/Bluberries-2.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/579/conversions/Bluberries-2-thumbnail.jpg"
+          },
+          {
+            "id": "581",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/580/Bluberries.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/580/conversions/Bluberries-thumbnail.jpg"
+          },
+          {
+            "id": "740",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/739/blueberries_relyfn.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/739/conversions/blueberries_relyfn-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-08T10:40:00.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": null,
+        "min_price": null,
+        "pivot": {
+          "order_id": 11,
+          "product_id": 3,
+          "order_quantity": "3",
+          "unit_price": 3,
+          "subtotal": 9,
+          "variation_option_id": null,
+          "created_at": "2021-08-26T09:18:40.000000Z",
+          "updated_at": "2021-08-26T09:18:40.000000Z"
+        },
+        "variation_options": []
+      },
+      {
+        "id": 113,
+        "name": "Forever 21 Solid Bodycon Midi Dress",
+        "slug": "forever-21-solid-bodycon-midi-dress",
+        "description": "Grey solid woven bodycon dress, has a round neck, sleeveless, straight hem",
+        "type_id": 5,
+        "price": null,
+        "shop_id": 2,
+        "sale_price": null,
+        "sku": "1203",
+        "quantity": 3000,
+        "in_stock": 1,
+        "is_taxable": 0,
+        "shipping_class_id": null,
+        "status": "publish",
+        "product_type": "variable",
+        "unit": "1 pc(s)",
+        "height": null,
+        "width": null,
+        "length": null,
+        "image": {
+          "id": "115",
+          "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/115/FOREVER_21.jpg",
+          "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/115/conversions/FOREVER_21-thumbnail.jpg"
+        },
+        "gallery": [
+          {
+            "id": "672",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/671/Striped-Dress.png",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/671/conversions/Striped-Dress-thumbnail.jpg"
+          },
+          {
+            "id": "768",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/767/FOREVER_21.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/767/conversions/FOREVER_21-thumbnail.jpg"
+          }
+        ],
+        "deleted_at": null,
+        "created_at": "2021-03-09T18:01:23.000000Z",
+        "updated_at": "2021-06-27T03:56:42.000000Z",
+        "max_price": 120,
+        "min_price": 100,
+        "pivot": {
+          "order_id": 11,
+          "product_id": 113,
+          "order_quantity": "1",
+          "unit_price": 100,
+          "subtotal": 100,
+          "variation_option_id": 262,
+          "created_at": "2021-08-26T09:18:40.000000Z",
+          "updated_at": "2021-08-26T09:18:40.000000Z"
+        },
+        "variation_options": [
+          {
+            "id": 261,
+            "title": "Blue/M",
+            "price": 120,
+            "sale_price": 100,
+            "quantity": "500",
+            "is_disable": 0,
+            "sku": "200130",
+            "options": [
+              {
+                "name": "Color",
+                "value": "Blue"
+              },
+              {
+                "name": "Size",
+                "value": "M"
+              }
+            ],
+            "product_id": 113,
+            "created_at": "2021-05-10T09:14:04.000000Z",
+            "updated_at": "2021-05-10T09:14:04.000000Z"
+          },
+          {
+            "id": 262,
+            "title": "Blue/L",
+            "price": 120,
+            "sale_price": 100,
+            "quantity": "500",
+            "is_disable": 0,
+            "sku": "200131",
+            "options": [
+              {
+                "name": "Color",
+                "value": "Blue"
+              },
+              {
+                "name": "Size",
+                "value": "L"
+              }
+            ],
+            "product_id": 113,
+            "created_at": "2021-05-10T09:14:04.000000Z",
+            "updated_at": "2021-05-10T09:14:04.000000Z"
+          },
+          {
+            "id": 263,
+            "title": "Blue/XL",
+            "price": 120,
+            "sale_price": 100,
+            "quantity": "500",
+            "is_disable": 0,
+            "sku": "200132",
+            "options": [
+              {
+                "name": "Color",
+                "value": "Blue"
+              },
+              {
+                "name": "Size",
+                "value": "XL"
+              }
+            ],
+            "product_id": 113,
+            "created_at": "2021-05-10T09:14:04.000000Z",
+            "updated_at": "2021-05-10T09:14:04.000000Z"
+          },
+          {
+            "id": 264,
+            "title": "White/M",
+            "price": 120,
+            "sale_price": null,
+            "quantity": "500",
+            "is_disable": 0,
+            "sku": "200135",
+            "options": [
+              {
+                "name": "Color",
+                "value": "White"
+              },
+              {
+                "name": "Size",
+                "value": "M"
+              }
+            ],
+            "product_id": 113,
+            "created_at": "2021-05-10T09:14:04.000000Z",
+            "updated_at": "2021-05-10T09:14:04.000000Z"
+          },
+          {
+            "id": 265,
+            "title": "White/L",
+            "price": 120,
+            "sale_price": 100,
+            "quantity": "500",
+            "is_disable": 0,
+            "sku": "200136",
+            "options": [
+              {
+                "name": "Color",
+                "value": "White"
+              },
+              {
+                "name": "Size",
+                "value": "L"
+              }
+            ],
+            "product_id": 113,
+            "created_at": "2021-05-10T09:14:04.000000Z",
+            "updated_at": "2021-05-10T09:14:04.000000Z"
+          },
+          {
+            "id": 266,
+            "title": "White/XL",
+            "price": 120,
+            "sale_price": 100,
+            "quantity": "500",
+            "is_disable": 0,
+            "sku": "200138",
+            "options": [
+              {
+                "name": "Color",
+                "value": "White"
+              },
+              {
+                "name": "Size",
+                "value": "XL"
+              }
+            ],
+            "product_id": 113,
+            "created_at": "2021-05-10T09:14:04.000000Z",
+            "updated_at": "2021-05-10T09:14:04.000000Z"
+          }
+        ]
+      }
+    ],
+    "children": [
+      {
+        "id": 12,
+        "tracking_number": "28MhcKXvjlOs",
+        "customer_id": 2,
+        "customer_contact": "19365141641631",
+        "status": {
+          "id": 1,
+          "name": "Order Received",
+          "serial": 1,
+          "color": "#23b848",
+          "created_at": "2021-03-08T21:33:52.000000Z",
+          "updated_at": "2021-03-08T21:34:04.000000Z"
+        },
+        "amount": 9.6,
+        "sales_tax": 0,
+        "paid_total": 9.6,
+        "total": 9.6,
+        "coupon_id": null,
+        "parent_id": 11,
+        "shop_id": 6,
+        "discount": 0,
+        "payment_id": null,
+        "payment_gateway": "cod",
+        "shipping_address": {
+          "zip": "40391",
+          "city": "Winchester",
+          "state": "KY",
+          "country": "United States",
+          "street_address": "2148  Straford Park"
+        },
+        "billing_address": {
+          "zip": "40391",
+          "city": "Winchester",
+          "state": "KY",
+          "country": "United States",
+          "street_address": "2148  Straford Park"
+        },
+        "logistics_provider": null,
+        "delivery_fee": 0,
+        "delivery_time": "Morning",
+        "deleted_at": null,
+        "created_at": "2021-08-26T09:18:40.000000Z",
+        "updated_at": "2021-08-26T09:18:40.000000Z",
+        "customer": {
+          "id": 2,
+          "name": "Customer",
+          "email": "customer@demo.com",
+          "email_verified_at": null,
+          "created_at": "2021-08-18T10:30:29.000000Z",
+          "updated_at": "2021-08-18T13:17:53.000000Z",
+          "is_active": 1,
+          "shop_id": null
+        },
+        "products": [
+          {
+            "id": 2,
+            "name": "Baby Spinach",
+            "slug": "baby-spinach",
+            "description": "Spinach (Spinacia oleracea) is a leafy green flowering plant native to central and western Asia. It is of the order Caryophyllales, family Amaranthaceae, subfamily Chenopodioideae. Its leaves are a common edible vegetable consumed either fresh.",
+            "type_id": 1,
+            "price": 0.6,
+            "shop_id": 6,
+            "sale_price": null,
+            "sku": "2",
+            "quantity": 10,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "2lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "2",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/2/BabySpinach.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/2/conversions/BabySpinach-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "576",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/575/baby-spinach-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/575/conversions/baby-spinach-1-thumbnail.jpg"
+              },
+              {
+                "id": "577",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/576/baby-spinach-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/576/conversions/baby-spinach-2-thumbnail.jpg"
+              },
+              {
+                "id": "578",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/577/baby-spinach.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/577/conversions/baby-spinach-thumbnail.jpg"
+              },
+              {
+                "id": "738",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/737/BabySpinach_xronqz.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/737/conversions/BabySpinach_xronqz-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:26:13.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 12,
+              "product_id": 2,
+              "order_quantity": "1",
+              "unit_price": 0.6,
+              "subtotal": 0.6,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T09:18:40.000000Z",
+              "updated_at": "2021-08-26T09:18:40.000000Z"
+            },
+            "variation_options": []
+          },
+          {
+            "id": 3,
+            "name": "Blueberries",
+            "slug": "blueberries",
+            "description": "Blueberries are perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries. Commercial blueberries—both wild and cultivated —are all native to North America.",
+            "type_id": 1,
+            "price": 3,
+            "shop_id": 6,
+            "sale_price": null,
+            "sku": "3",
+            "quantity": 30,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "1lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "3",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/3/blueberries.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/3/conversions/blueberries-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "580",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/579/Bluberries-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/579/conversions/Bluberries-2-thumbnail.jpg"
+              },
+              {
+                "id": "581",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/580/Bluberries.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/580/conversions/Bluberries-thumbnail.jpg"
+              },
+              {
+                "id": "740",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/739/blueberries_relyfn.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/739/conversions/blueberries_relyfn-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:40:00.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 12,
+              "product_id": 3,
+              "order_quantity": "3",
+              "unit_price": 3,
+              "subtotal": 9,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T09:18:40.000000Z",
+              "updated_at": "2021-08-26T09:18:40.000000Z"
+            },
+            "variation_options": []
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "tracking_number": "jzUWrahEzJIQ",
+        "customer_id": 2,
+        "customer_contact": "19365141641631",
+        "status": {
+          "id": 1,
+          "name": "Order Received",
+          "serial": 1,
+          "color": "#23b848",
+          "created_at": "2021-03-08T21:33:52.000000Z",
+          "updated_at": "2021-03-08T21:34:04.000000Z"
+        },
+        "amount": 100,
+        "sales_tax": 0,
+        "paid_total": 100,
+        "total": 100,
+        "coupon_id": null,
+        "parent_id": 11,
+        "shop_id": 2,
+        "discount": 0,
+        "payment_id": null,
+        "payment_gateway": "cod",
+        "shipping_address": {
+          "zip": "40391",
+          "city": "Winchester",
+          "state": "KY",
+          "country": "United States",
+          "street_address": "2148  Straford Park"
+        },
+        "billing_address": {
+          "zip": "40391",
+          "city": "Winchester",
+          "state": "KY",
+          "country": "United States",
+          "street_address": "2148  Straford Park"
+        },
+        "logistics_provider": null,
+        "delivery_fee": 0,
+        "delivery_time": "Morning",
+        "deleted_at": null,
+        "created_at": "2021-08-26T09:18:40.000000Z",
+        "updated_at": "2021-08-26T09:18:40.000000Z",
+        "customer": {
+          "id": 2,
+          "name": "Customer",
+          "email": "customer@demo.com",
+          "email_verified_at": null,
+          "created_at": "2021-08-18T10:30:29.000000Z",
+          "updated_at": "2021-08-18T13:17:53.000000Z",
+          "is_active": 1,
+          "shop_id": null
+        },
+        "products": [
+          {
+            "id": 113,
+            "name": "Forever 21 Solid Bodycon Midi Dress",
+            "slug": "forever-21-solid-bodycon-midi-dress",
+            "description": "Grey solid woven bodycon dress, has a round neck, sleeveless, straight hem",
+            "type_id": 5,
+            "price": null,
+            "shop_id": 2,
+            "sale_price": null,
+            "sku": "1203",
+            "quantity": 3000,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "variable",
+            "unit": "1 pc(s)",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "115",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/115/FOREVER_21.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/115/conversions/FOREVER_21-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "672",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/671/Striped-Dress.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/671/conversions/Striped-Dress-thumbnail.jpg"
+              },
+              {
+                "id": "768",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/767/FOREVER_21.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/767/conversions/FOREVER_21-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-09T18:01:23.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": 120,
+            "min_price": 100,
+            "pivot": {
+              "order_id": 13,
+              "product_id": 113,
+              "order_quantity": "1",
+              "unit_price": 100,
+              "subtotal": 100,
+              "variation_option_id": 262,
+              "created_at": "2021-08-26T09:18:40.000000Z",
+              "updated_at": "2021-08-26T09:18:40.000000Z"
+            },
+            "variation_options": [
+              {
+                "id": 261,
+                "title": "Blue/M",
+                "price": 120,
+                "sale_price": 100,
+                "quantity": "500",
+                "is_disable": 0,
+                "sku": "200130",
+                "options": [
+                  {
+                    "name": "Color",
+                    "value": "Blue"
+                  },
+                  {
+                    "name": "Size",
+                    "value": "M"
+                  }
+                ],
+                "product_id": 113,
+                "created_at": "2021-05-10T09:14:04.000000Z",
+                "updated_at": "2021-05-10T09:14:04.000000Z"
+              },
+              {
+                "id": 262,
+                "title": "Blue/L",
+                "price": 120,
+                "sale_price": 100,
+                "quantity": "500",
+                "is_disable": 0,
+                "sku": "200131",
+                "options": [
+                  {
+                    "name": "Color",
+                    "value": "Blue"
+                  },
+                  {
+                    "name": "Size",
+                    "value": "L"
+                  }
+                ],
+                "product_id": 113,
+                "created_at": "2021-05-10T09:14:04.000000Z",
+                "updated_at": "2021-05-10T09:14:04.000000Z"
+              },
+              {
+                "id": 263,
+                "title": "Blue/XL",
+                "price": 120,
+                "sale_price": 100,
+                "quantity": "500",
+                "is_disable": 0,
+                "sku": "200132",
+                "options": [
+                  {
+                    "name": "Color",
+                    "value": "Blue"
+                  },
+                  {
+                    "name": "Size",
+                    "value": "XL"
+                  }
+                ],
+                "product_id": 113,
+                "created_at": "2021-05-10T09:14:04.000000Z",
+                "updated_at": "2021-05-10T09:14:04.000000Z"
+              },
+              {
+                "id": 264,
+                "title": "White/M",
+                "price": 120,
+                "sale_price": null,
+                "quantity": "500",
+                "is_disable": 0,
+                "sku": "200135",
+                "options": [
+                  {
+                    "name": "Color",
+                    "value": "White"
+                  },
+                  {
+                    "name": "Size",
+                    "value": "M"
+                  }
+                ],
+                "product_id": 113,
+                "created_at": "2021-05-10T09:14:04.000000Z",
+                "updated_at": "2021-05-10T09:14:04.000000Z"
+              },
+              {
+                "id": 265,
+                "title": "White/L",
+                "price": 120,
+                "sale_price": 100,
+                "quantity": "500",
+                "is_disable": 0,
+                "sku": "200136",
+                "options": [
+                  {
+                    "name": "Color",
+                    "value": "White"
+                  },
+                  {
+                    "name": "Size",
+                    "value": "L"
+                  }
+                ],
+                "product_id": 113,
+                "created_at": "2021-05-10T09:14:04.000000Z",
+                "updated_at": "2021-05-10T09:14:04.000000Z"
+              },
+              {
+                "id": 266,
+                "title": "White/XL",
+                "price": 120,
+                "sale_price": 100,
+                "quantity": "500",
+                "is_disable": 0,
+                "sku": "200138",
+                "options": [
+                  {
+                    "name": "Color",
+                    "value": "White"
+                  },
+                  {
+                    "name": "Size",
+                    "value": "XL"
+                  }
+                ],
+                "product_id": 113,
+                "created_at": "2021-05-10T09:14:04.000000Z",
+                "updated_at": "2021-05-10T09:14:04.000000Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
